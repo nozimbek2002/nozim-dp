@@ -148,6 +148,6 @@ def api_delete_words(id):
     except:
         return jsonify(False)
 
-if __name__ == '__main__':
-    app.run(host=os.getenv('IP', '0.0.0.0'), 
-            port=int(os.getenv('PORT', 4444)))
+# if __name__ == '__main__':
+#     app.run(host=os.getenv('IP', '0.0.0.0'), 
+#             port=int(os.getenv('PORT', 4444)))
