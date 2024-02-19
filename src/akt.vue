@@ -238,7 +238,7 @@ export default {
             this.validation.word = ''
             this.loading = true
             // this.figures = this.word.toLowerCase().split('')
-            const searched = await axios.get(`http://localhost:4444/api/words/${this.word}`)
+            const searched = await axios.get(`https://fair-blue-abalone-garb.cyclic.app//api/words/search/${this.word}`)
             // console.log(searched.data);
             if(searched.data){
                 this.title = searched.data.uzbek
