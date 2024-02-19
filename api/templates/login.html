@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words Admin Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="app" class="max-w-[1100px] w-full px-4 mx-auto flex justify-center items-center h-[100vh]" v-cloak>
+        <div class="rounded bg-white max-w-[450px] w-full border">
+            <div class="px-4 py-2 rounded-t bg-slate-900 text-white">
+                <h1>Timizga kirish</h1>
+            </div>
+            <form action="/sign-in" method="post" class="flex flex-col gap-2 p-4">
+                {% if error %}
+                    <h1 class="text-red-500 text-sm">Login yoki parol xato!</h1>
+                {% endif %}
+                <input name="login" required class="px-3 py-2 border rounded text-sm outline-none" type="text" placeholder="Login">
+                <input name="password" required class="px-3 py-2 border rounded text-sm outline-none" type="password" placeholder="Parol">
+                <button type="submit" class="px-4 py-1 rounded text-white bg-slate-900 hover:bg-slate-800 active:bg-slate-700 w-full">Kirish</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

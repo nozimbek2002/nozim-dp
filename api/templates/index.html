@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words Admin Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        [v-cloak]{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app" class="max-w-[1100px] w-full px-4 mx-auto" v-cloak>
+        <div class="z-10 flex items-center justify-between py-2 w-full">
+            <div class="flex items-center gap-2">
+                <!-- <div class="flex items-center gap-2">
+                    <i class='bx bx-search-alt-2 text-xl text-gray-600'></i>
+                    <input @input="searchItems" required class="px-3 py-2 border rounded text-sm outline-none max-w-[300px] w-full" type="text" placeholder="Qidirish">
+                </div> -->
+                <div class="flex items-center gap-2 max-w-[300px]">
+                    <select v-model="selected_category" @change="fetchItems()" required class="px-3 py-2 border rounded text-sm outline-none w-full">
+                        <option v-for="c,i in categories" :value="i">${c.name}$</option>
+                    </select>
+                </div>
+            </div>
+            <button @click="dialog=true" :disabled="categories.length===0" class="px-4 py-1 rounded text-white bg-slate-900 hover:bg-slate-800 active:bg-slate-700 disabled:bg-slate-500">Kiritsh</button>
+        </div>
+        <div class="w-full">
+            <table class="table-auto w-full">
+                <thead>
+                  <tr class="bg-slate-900 text-white">
+                    <th class="text-sm text-left py-2 px-4 rounded-tl">ID</th>
+                    <th class="text-sm text-left py-2 px-4" v-for="sc,i in categories[selected_category]?.fields || []">${ sc.placeholder }$</th>
+                    <th class="text-sm text-left py-2 px-4">Izoh</th>
+                    <th class="text-sm text-left py-2 px-4 rounded-tr">Boshqarish</th>
+                  </tr>
+                </thead>
+                <tbody class="border rounded">
+                  <tr class="hover:bg-gray-100" v-for="word,i in words" :key="i">
+                    <td class="text-sm py-2 px-4">${ word.w_id }$</td>
+                    <td class="text-sm py-2 px-4" v-for="sc,i in categories[selected_category]?.fields || []">${ word?.[sc.name] }$</td>
+                    <td class="text-sm py-2 px-4 text-balance">${ word.description }$</td>
+                    <td class="text-sm py-2 px-4">
+                        <div class="flex gap-2 items-center">
+                            <button @click="selectEdited(word, i)" class="px-3 py-1 rounded text-white bg-slate-900 hover:bg-slate-800 active:bg-slate-700">
+                                <i class='bx bxs-pencil text-white'></i>
+                            </button>
+                            <button @click="deleteItem(word.w_id, i)" class="px-3 py-1 rounded text-white bg-red-600 hover:bg-red-500 active:bg-red-400">
+                                <i class='bx bxs-trash-alt text-white'></i>
+                            </button>
+                        </div>
+                    </td>
+                  </tr>
+                </tbody>
+            </table>
+            <div class="w-full flex items-center justify-between py-2">
+                <select v-model="perpage" @change="fetchItems()" class="px-4 py-1 cursor-pointer rounded text-white bg-slate-900 hover:bg-slate-800 active:bg-slate-700">
+                    <option :value="10">10</option>
+                    <option :value="25" selected>25</option>
+                    <option :value="50">50</option>
+                    <option :value="100">100</option>
+                </select>
+                <div class="flex gap-2 items-center">
+                    <button :disabled="page===1" @click="page--,fetchItems()" class="px-4 py-1 rounded text-white disabled:bg-slate-600 bg-slate-900 hover:bg-slate-800 active:bg-slate-700">&leftarrow;</button>
+                    <span>${ perpage*(page-1)+1 }$-${ perpage*(page-1)+words.length }$ / ${ count }$</span>
+                    <button :disabled="page >= Math.ceil(count / perpage)" @click="page++,fetchItems()" class="px-4 py-1 rounded text-white disabled:bg-slate-600 bg-slate-900 hover:bg-slate-800 active:bg-slate-700">&rightarrow;</button>
+                </div>
+            </div>
+        </div>
+        <div class="fixed right-[20px] bottom-[20px] z-20">
+            <a href="/categories" class="px-3 py-2 rounded text-white bg-slate-900 hover:bg-slate-800 active:bg-slate-700 w-full">
+                <i class='bx bxs-category'></i>
+            </a>
+        </div>
+        <div @click="dialog=false" class="px-4 shadow fixed top-0 left-0 justify-center items-center z-30 w-full h-full bg-black/60 flex" v-if="dialog">
+            <div @click.stop class="rounded bg-white max-w-[550px] w-full">
+                <div class="px-4 py-2 rounded-t bg-slate-900 text-white">
+                    <h1>${ index ? "So'zni o'zgartirish" : "So'z yaratish" }$</h1>
+                </div>
+                <form @submit.prevent="save" class="flex flex-col gap-2 p-4">
+                    <input v-for="sc,i in categories[selected_category]?.fields || []" v-model="word[sc.name]" :placeholder="sc.placeholder" required class="px-3 py-2 border rounded text-sm outline-none" type="text">
+                    <textarea required v-model="word.description" placeholder="Izoh" rows="4" class="resize-none px-3 py-2 border rounded text-sm outline-none"></textarea>
+                    <button type="submit" class="px-4 py-1 rounded text-white bg-slate-900 hover:bg-slate-800 active:bg-slate-700 disabled:bg-slate-600 w-full">Saqlash</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+    const { createApp, ref } = Vue
+    createApp({
+        data: () => ({
+            dialog: false,
+            word: {
+                description: '',
+            },
+            loading: false,
+            search: '',
+            index: null,
+            words: [],
+            selected_category: 0,
+            categories: [],
+            count: 0,
+            page: 1,
+            perpage: 25,
+        }),
+        delimiters: ["${", "}$"],
+        computed: {},
+        methods: {
+            async fetchCategories() {
+                const { data } = await axios(`/api/categories?page=1&perpage=1000`)
+                this.categories = data.result
+                if(this.categories[this.selected_category]) await this.fetchItems() 
+            },
+            async fetchItems(){
+                const { data } = await axios(`/api/words?search=${this.search}&page=${this.page}&perpage=${this.perpage}&category=${this.categories[this.selected_category].c_id}`)
+                this.words = data.result
+                this.count = data.count
+            },
+            searchItems(e){
+                debouncedSearch = _.debounce(async e => {
+                    this.search = e
+                }, 500)
+                this.page = 1
+                debouncedSearch(e.target.value)
+            },
+            async save(){
+                this.loading = true
+                try {
+                    this.word.category = this.categories[this.selected_category].c_id
+                    if(this.index !== null){
+                        const resp = await fetch(`/api/words/edit/${this.words[this.index].w_id}`, {
+                            headers: {
+                                'Content-type':'application/json;charset=utf-8', 
+                                'Accept':'application/json'
+                            },
+                            method: 'PUT',
+                            body: JSON.stringify(this.word)
+                        })
+                        const result = await resp.json()
+                        // console.log(result);
+                        Object.assign(this.words[this.index], this.word)
+                    }else{
+                        console.log(this.word);
+                        const resp = await fetch('/api/words/create', {
+                            headers: {
+                                'Content-type':'application/json;charset=utf-8', 
+                                'Accept':'application/json'
+                            },
+                            method: 'POST',
+                            body: JSON.stringify(this.word)
+                        })
+                        
+                        const result = await resp.json()
+                        console.log(result);
+                        // console.log(result);
+                        this.words.push(result)
+                    }
+                    this.word = {
+                        word: '',
+                        grammar: '',
+                        lexical: '',
+                        description: '',
+                    }
+                    this.index = null
+                    this.dialog = false
+                } catch (error) {
+                    console.log(error);
+                } finally {
+                    this.loading = true
+                }
+            },
+            async deleteItem(id, index){
+                if(!confirm("Bu so'zni o'chirmoqchimisiz'")) return
+                const resp = await fetch(`/api/words/delete/${id}`, { method: 'DELETE' })
+                const result = await resp.json()
+                if(result) this.words.splice(index, 1)
+            },
+            selectEdited(item, index){
+                this.word = Object.assign({}, item)
+                this.index = index
+                this.dialog = true
+            },
+        },
+        async created(){
+            this.fetchCategories()
+        }
+    })
+    .mount('#app')
+    </script>
+</body>
+</html>
