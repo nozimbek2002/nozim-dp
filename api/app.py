@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, render_template
 from pymongo import MongoClient
 from flask_cors import CORS
 import re
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -148,4 +149,5 @@ def api_delete_words(id):
         return jsonify(False)
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(host=os.getenv('IP', '0.0.0.0'), 
+            port=int(os.getenv('PORT', 4444)))
