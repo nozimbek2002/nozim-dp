@@ -6,8 +6,8 @@ import os
 
 app = Flask(__name__)
 CORS(app)
-# cluster = MongoClient('mongodb+srv://nurbek:nurbek1205@cluster0.fh6z1.mongodb.net/?retryWrites=true&w=majority')
-cluster = MongoClient('mongodb://localhost:27017/indivudal')
+cluster = MongoClient('mongodb+srv://nurbek:nurbek1205@cluster0.fh6z1.mongodb.net/?retryWrites=true&w=majority')
+# cluster = MongoClient('mongodb://localhost:27017/indivudal')
 db = cluster['indivudal']
 words_col = db['akt-words']
 categories_col = db['akt-categories']
