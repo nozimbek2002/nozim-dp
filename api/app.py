@@ -6,7 +6,8 @@ import os
 
 app = Flask(__name__)
 CORS(app)
-cluster = MongoClient('mongodb+srv://nurbek:nurbek1205@cluster0.fh6z1.mongodb.net/?retryWrites=true&w=majority')
+# cluster = MongoClient('mongodb+srv://nurbek:nurbek1205@cluster0.fh6z1.mongodb.net/?retryWrites=true&w=majority')
+cluster = MongoClient('mongodb://localhost:27017/indivudal')
 db = cluster['indivudal']
 words_col = db['akt-words']
 categories_col = db['akt-categories']
@@ -122,12 +123,29 @@ def api_create_words():
 
 @app.route('/api/words/search/<string:name>', methods=['GET'])
 def search_words(name):
-    regex_pattern = re.compile('^' + name, re.IGNORECASE)
-    categories_r = words_col.find_one({ "uzbek": regex_pattern })
-    if categories_r:
-        del categories_r['_id']
-        return jsonify(categories_r)
-    return jsonify(False)
+    # g = name
+    # query_params = request.args.to_dict()
+    # regex_patterns = {field: re.compile('^' + name, re.IGNORECASE) for field, name in query_params.items()}
+    # query = {field: pattern for field, pattern in regex_patterns.items()}
+    # print(query)
+
+    query_params = request.args.to_dict()
+
+    # Construct $or query
+    or_conditions = []
+    for field, name in query_params.items():
+        or_conditions.append({field: re.compile('^' + name, re.IGNORECASE)})
+
+    # Construct MongoDB query
+    query = {'$or': or_conditions}
+    # print(query)
+    categories_r = words_col.find(query)
+
+    categories_list = []
+    for item in categories_r:
+        del item['_id']
+        categories_list.append(item)
+    return jsonify(categories_list)
     # except:
     #     return jsonify(False)
 
@@ -151,3 +169,4 @@ def api_delete_words(id):
 if __name__ == '__main__':
     app.run(host=os.getenv('IP', '0.0.0.0'), 
             port=int(os.getenv('PORT', 4444)))
+    # app.run(debug=True)

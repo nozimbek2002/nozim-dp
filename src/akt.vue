@@ -98,18 +98,33 @@
                 korpus lug'ati
             </h3>
             <div>
-                <form class="form-inline w-100" @submit.prevent="submit">
-                    <input v-model="word" type="text"
-                        :class="`form-control mb-2 mr-sm-2 inputWidth100 shadow-none ${validation.word ? 'is-invalid' : ''}`"
-                        placeholder="So'z kiriting...">
-                    <button v-if="loading" type="submit" class="btn btn-success mb-2 buttonWidth" :disabled="loading">
-                        <div class="spinner-border spinner-border-sm text-light" role="status">
-                            <span class="sr-only">Topilmoqda...</span>
+                <form class="form-inline w-100 form-grid-elements" @submit.prevent="search_items">
+                    <div class="mr-md-2" style="position: relative;">
+                        <input v-model="word" type="text"
+                            :class="`form-control mb-2 w-100 shadow-none ${validation.word ? 'is-invalid' : ''}`"
+                            placeholder="So'z kiriting...">
+
+                        <div class="searched_words" v-show="s_items.length>0&&!!word.trim()">
+                            <!-- {{ s_items }} -->
+                            <div v-for="s,i in s_items" :key="i" @click="select_word(s)">
+                                {{ i+1 }}.
+                                <span v-for="key,j in Object.keys(s)" :key="j" v-show="!['category','w_id', 'description'].includes(key)">{{ s[key] }}, </span>
+                            </div>
                         </div>
-                    </button>
-                    <button v-else type="submit" class="btn btn-success mb-2 buttonWidth">
-                        Izlash
-                    </button>
+                    </div>
+                    <div class="w-100 d-flex gap-2">
+                        <select class="form-control w-100 mb-2 mr-2 shadow-none" v-model="category">
+                            <option v-for="c,i in categories" :key="i" :value="i">{{ c.name }}</option>
+                        </select>
+                        <button v-if="loading" type="submit" class="btn btn-success mb-2 buttonWidth" :disabled="loading">
+                            <div class="spinner-border spinner-border-sm text-light" role="status">
+                                <span class="sr-only">Topilmoqda...</span>
+                            </div>
+                        </button>
+                        <button v-else type="submit" class="btn btn-success mb-2 buttonWidth">
+                            Izlash
+                        </button>
+                    </div>
                 </form>
                 <small v-if="validation.word" class="text-danger">
                     {{ validation.word }}
@@ -127,31 +142,20 @@
                         <div class="col-md-6" />
                     </div>
                 </h3>
+                <div class="row m-0 p-0 w-100" v-for="c,i in categories[category]?.fields||[]" :key="i">
+                    <div class="col-md-4 border-bottom">
+                        <p class="text-black-50 p-0 m-0 font-weight-bold mt-4">
+                            {{ c.placeholder }}:
+                        </p>
+                    </div>
+                    <div class="col-md-8 border-bottom">
+                        <p class="text-black-50 p-0 m-0 font-weight-bold mt-4">
+                            <span class="blue-text">{{ result?.[c.name] }}</span>
+                        </p>
+                    </div>
+                </div>
+
                 <div class="row m-0 p-0 w-100">
-                    <div class="col-md-4 border-bottom">
-                        <p class="text-black-50 p-0 m-0 font-weight-bold mt-4">
-                            Grammatik tavsif:
-                        </p>
-                    </div>
-                    <div class="col-md-8 border-bottom">
-                        <p class="text-black-50 p-0 m-0 font-weight-bold mt-4">
-                            <span class="blue-text">{{ razmetka }}</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="row m-0 p-0">
-                    <div class="col-md-4 border-bottom">
-                        <p class="text-black-50 p-0 m-0 font-weight-bold mt-4">
-                            Lug'aviy shakl:
-                        </p>
-                    </div>
-                    <div class="col-md-8 border-bottom">
-                        <p class="text-black-50 p-0 m-0 font-weight-bold mt-4">
-                            <span class="blue-text">{{ lemma }}</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="row m-0 p-0">
                     <div class="col-md-4 border-bottom">
                         <p class="text-black-50 p-0 m-0 font-weight-bold mt-4">
                             Izoh:
@@ -159,10 +163,11 @@
                     </div>
                     <div class="col-md-8 border-bottom">
                         <p class="text-black-50 p-0 m-0 font-weight-bold mt-4">
-                            <span class="blue-text izoh" v-html="izoh" />
+                            <span class="blue-text">{{ result?.description }}</span>
                         </p>
                     </div>
                 </div>
+
                 <!-- <div class="row mt-2">
                     <div class="col-md-12">
                         <div class="mt-5">
@@ -209,9 +214,15 @@ export default {
         validation: {
             word: ''
         },
+        category: 0,
         loading: false,
         figures: [],
         items: [],
+        s_items: [],
+        categories: [],
+        result: null,
+        selected: null,
+        url: 'https://fair-blue-abalone-garb.cyclic.app'
     }),
     computed: {
         isAuth() {
@@ -233,23 +244,54 @@ export default {
         login() {
             this.$router.push('/login')
         },
+        select_word(word) {
+            this.result = word
+            this.word = ''
+            this.s_items = []
+        },
         async submit () {
             if(!this.word?.trim()) return
             this.validation.word = ''
             this.loading = true
             // this.figures = this.word.toLowerCase().split('')
-            const searched = await axios.get(`https://fair-blue-abalone-garb.cyclic.app//api/words/search/${this.word}`)
+            // const searched = await axios.get(`/api/words/search/${this.word}`)
+            const searched = await axios.get(`${this.url}/api/words/search/${this.word}?`)
             // console.log(searched.data);
             if(searched.data){
-                this.title = searched.data.uzbek
-                this.lemma = String(searched.data.english).slice(5)
-                this.razmetka = String(searched.data.russian).slice(4)
-                this.izoh = searched.data.description
+                this.result = searched.data
+                // this.title = searched.data.uzbek
+                // this.lemma = String(searched.data.english).slice(5)
+                // this.razmetka = String(searched.data.russian).slice(4)
+                // this.izoh = searched.data.description
             } else {
                 this.validation.word = 'Ushbu so\'z topilmadi!'
+                this.result = null
             }
             
             this.loading = false
+        },
+        async get_categories() {
+            const { data } = await axios.get(`${this.url}/api/categories?page=1&limit=1000`)
+            this.categories = data.result
+        },
+        async search_items() {
+            const qs = {}
+            this.categories?.[this.category]?.fields?.map(field => {
+                qs[field.name] = this.word
+            })
+            qs.description = this.word
+            // console.log(qs);
+            const { data } = await axios.get(`${this.url}/api/words/search/${this.word}`, { params: qs })
+            this.s_items = data
+            console.log(data);
+        }
+    },
+    async created() {
+        this.get_categories()
+    },
+    watch: {
+        category() {
+            this.select_word(null)
         }
     }
 }
@@ -257,6 +299,43 @@ export default {
   
 <style>
 @import url('/assets/css.css');
+
+.searched_words {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    max-height: 200px;
+    box-shadow: 0 4px 10px 0 #0004;
+    overflow: auto;
+    z-index: 4;
+    background: #fff;
+}
+
+.searched_words div {
+    cursor: pointer;
+    padding: 10px 5px;
+}
+
+.searched_words div:hover {
+    background: #0002;
+}
+
+.searched_words div:active {
+    background: #0004;
+}
+
+.form-grid-elements {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+@media screen and (max-width: 700px) {
+    .form-grid-elements {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
 
 .qisqa {
     margin-left: 0px;
