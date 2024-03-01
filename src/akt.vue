@@ -102,7 +102,7 @@
                     <div class="mr-md-2" style="position: relative;">
                         <input v-model="word" type="text"
                             :class="`form-control mb-2 w-100 shadow-none ${validation.word ? 'is-invalid' : ''}`"
-                            placeholder="So'z kiriting...">
+                            placeholder="So'z kiriting..." @input="processChange">
 
                         <div class="searched_words" v-show="s_items.length>0&&!!word.trim()">
                             <!-- {{ s_items }} -->
@@ -203,6 +203,15 @@
   
 <script>
 import axios from 'axios'
+import debounce from 'lodash.debounce'
+
+// function debounce(func, timeout = 300){
+//     let timer;
+//     return (...args) => {
+//         clearTimeout(timer);
+//         timer = setTimeout(() => { func.apply(this, args); }, timeout);
+//     };
+// }
 
 export default {
     data: () => ({
@@ -223,6 +232,7 @@ export default {
         result: null,
         selected: null,
         url: 'https://fair-blue-abalone-garb.cyclic.app'
+        // url: 'http://localhost:5000'
     }),
     computed: {
         isAuth() {
@@ -284,7 +294,17 @@ export default {
             const { data } = await axios.get(`${this.url}/api/words/search/${this.word}`, { params: qs })
             this.s_items = data
             console.log(data);
-        }
+        },
+        processChange: debounce(function(e) {
+            this.word = e.target.value
+    
+            if (!e.target.value?.trim()) {
+                this.select_word(null)
+                this.s_items.values = [];
+                return;
+            }
+            this.search_items();
+        },500)
     },
     async created() {
         this.get_categories()

@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "65ccdc086ac7190aac1349f9"
+  },
+  "c_id": 1,
+  "name": "Akt",
+  "fields": [
+    {
+      "name": "uzbek",
+      "placeholder": "O'zbek"
+    },
+    {
+      "name": "russian",
+      "placeholder": "Rus"
+    },
+    {
+      "name": "english",
+      "placeholder": "Ingliz"
+    }
+  ]
+}]

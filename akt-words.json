@@ -1,0 +1,1907 @@
+[{
+  "_id": {
+    "$oid": "65ce737b589e117ceaa1adbc"
+  },
+  "w_id": 2,
+  "description": "Qadimgi greklar va rimliklarning tasmalar ga ajranilgan taxtacha ko'rinishidagi sanoq witas Sanashda toshchalar yoki tayoq chalar tasmalar bo'ylab siljitilih, sonlaming raaryadlari aniqlanardi. Cho'tlar kashf qilini shi bilan ahamiyatini yo'qotdi.",
+  "uzbek": "Abak",
+  "english": " ing.-abacus",
+  "russian": "rus.-пикабак",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce73d0589e117ceaa1adbd"
+  },
+  "w_id": 3,
+  "description": "Optik va elektron-optik tizimlarda tasvirlar- ning mayda detallari chetlarining surkalib ketishi ko'rinishida namoyon bo'ladigan buzilishi.",
+  "uzbek": "Aberratsiya",
+  "russian": "rus.-аберрация",
+  "english": "ing.-abberation ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7427589e117ceaa1adbe"
+  },
+  "w_id": 4,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Pochta aloqasi obyektlarida o'rnatiladigan qulflanadigan qutichalardan iborat maxsus javen bo'lib, bu qutichalar yozma xat xabarlarni, davriy bosma nashrlarni, pochta, kuryerlik jo'natmalari va pul mablag'larining pochta o'tkazmalari kelganligi to'g'risidagi xabarnomalarni olish uchun adresatlar tomo- nidan muayyan muddatga ijaraga olinadi.",
+  "uzbek": "Abonement pochta javoni",
+  "english": "ing.-subscription postbox",
+  "russian": "rus.-абонементный почтовый шкаф",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7499589e117ceaa1adbf"
+  },
+  "w_id": 5,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Telekommunikatsiyalar operatori bilan tuzil- gan shartnoma asosida telekommunikatsiya- lar xizmatlaridan bevosita foydalanuvchi jismoniy yoki yuridik shaxs (yoki foydalanuvchi).",
+  "uzbek": "Abonent",
+  "russian": "rus.-абонент",
+  "english": "ing.-subscriber",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce74ce589e117ceaa1adc0"
+  },
+  "w_id": 6,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Tovlamachilikning eng oddiy turlaridan biri, bunda abonent boshlang'ich abonent to'lo- vini kiritadi, keyin esa mobil aloqa qurilma sidan tinimsiz foydalanadi yoki efir vaqtini shunchaki qayta sotadi, hisoblash davri tu- gagandan keyin uni to'lamaydi, hisob-kitob yozuvlari bilan shug'ullanuvchi operator xizmatidan yashirinib yuradi.",
+  "uzbek": "Abonent aldovi",
+  "english": "ing.-subscription fraud",
+  "russian": "rus.-абонентский фрод",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce74fb589e117ceaa1adc1"
+  },
+  "w_id": 7,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Uzunligi 128 bit bo'lgan shifrlangan ket- ma-ketlik. Odatda, foydalanuvchini ro'y satga olish ma'lumotlari bilan birga abonent stansiyasining doimiy xotira qurilmasida saqlanadi.",
+  "uzbek": "Abonent autentifikatsiya kaliti",
+  "russian": " rus.-абонентский аутентификационный",
+  "english": "ing.-user authentication key",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7571589e117ceaa1adc2"
+  },
+  "w_id": 8,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Abonent joylashgan vaqtda yacheykaning barcha radiokanallari band bo'lgan (radiotar- moq ortiqcha yuklangan), abonent izlash xabarlariga javob bermagan, abonent ro'yxatdan o'tkazilmagan kabi sabablarga ko'ra, abonent bilan bog'lanish mumkin bo'lmaganda kiruvchi chaqiruvlar yo'nalishini o'zgartirish imkonini beradigan xizmat.",
+  "uzbek": "Abonent bilan bog'lanish mumkin  bo'lmaganda chaqiruvni qayta manzillash",
+  "english": " ing.-call forwarding not reachable (CFNRc)",
+  "russian": "rus.-переадресация вызова, когда абонент недоступен",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce75ca589e117ceaa1adc3"
+  },
+  "w_id": 9,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Cheklangan sondagi abonentlar uchun das- turiy eshittirishlarni uzatish.\n2. Chegaralangan hududga yo'ldoshlar orqali eshittirish bo'lib, ular bortidagi antenna har biri o'z hududiga xizmat ko'rsatadigan bir nechta tor nurni hosil qiladi.",
+  "uzbek": "Abonent eshittirishi",
+  "english": "ing.-narrowcasting",
+  "russian": "гия.-абонентское вещание",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce763d589e117ceaa1adc4"
+  },
+  "w_id": 10,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Muayyan abonent guruhiga kiruvchi bar- cha radiostansiyalar sozlangan chastotada chaqiruvni uzatish.",
+  "uzbek": "Abonent guruhini chaqirish",
+  "english": "ing.- fleet call",
+  "russian": "rus.-вызов абонентской группы",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce76aa589e117ceaa1adc5"
+  },
+  "w_id": 11,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Bevosita zavodda har bir telefonga beriladigan o'zgarmas kod. Ishlab chiqaruvchi va model kodini ichiga oladi.",
+  "uzbek": "Abonent identifikatori",
+  "english": "ing.-subscriber identity security",
+  "russian": "rus.-идентификатор абонента",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7790589e117ceaa1adc6"
+  },
+  "w_id": 12,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Aloqa vositalarini foydalaniluvchi (oxirgi) uskuna bilan birlashtiradigan fizik zanjirlar ning texnik-texnologik parametrlari.",
+  "uzbek": "Abonent interfeysi",
+  "english": "ing.-subscriber-line interface",
+  "russian": "rus.-абонентский интерфейс",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce77e0589e117ceaa1adc7"
+  },
+  "w_id": 13,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Abonentga kabelli taqsimlash tizimi bilan ta'minlanadigan kanallar sonidan bitta kanal ni tanlash imkonini deradigan qurilma. Izoh Bu qurilma kabelli televideniye qabulqilgichi, abonent rozetkasi yoki abonent konvertoriga ulanishi mumkin.\n",
+  "uzbek": "(Abonent) kanallar selektori",
+  "english": "ing.-(subscriber's) channel selector",
+  "russian": "rus.-селектор (абонентский) каналов",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7983589e117ceaa1adc8"
+  },
+  "w_id": 14,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Adresatlarga oddiy pochta jo'natmalari, davriy bosma nashrlar, ro'yxatga olinadi- gan pochta, kuryerlik jo'natmalari, pul mab- lag'larining pochta o'tkazmalari kelganligi to'g'risidagi xabarnomalarni yetkazib berish uchun mo'ljallangan uy (kvartira) kirishiga o'rnatilgan qulflanadigan maxsus quti.",
+  "uzbek": "Abonent pochta qutisi",
+  "english": "ing. post office box",
+  "russian": " rus.-абонентский почтовый ящик ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7a49589e117ceaa1adc9"
+  },
+  "w_id": 15,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Abonent uskunasining qismi hisoblanadigan va kabelli taqsimlash tizimi chastota kanallarini qabulqilgich mo'ljallangan kanallarga o'zgartitirish uchun mo'ljallangan qurilma.\n",
+  "uzbek": "Abonent konvertori",
+  "english": "ing.- subscriber's convertor",
+  "russian": "rus.-абонентский конвертор",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7ade589e117ceaa1adca"
+  },
+  "w_id": 16,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " 1. Abonent stansiyasi bilan aloqa uzelining kommunikatsion uskunasi o'rtasidagi liniya; ko'pincha, telekommunikatsiya tizimining <<so'nggi milyasi» deb ham ataladi.\n2.Mobil yo'ldoshi aloqa tarmoqlaridagi xizmat ko'rsatiladigan abonent terminali bilan yo'ldosh retranslyatori o'rtasidagi aloqa liniyasi (Mobile Satellite Service -MSS xizmati).\n",
+  "uzbek": "Abonent liniyasi",
+  "russian": "rus.-абонентская линия",
+  "english": " ing.-local loop (син. service link)",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7b3e589e117ceaa1adcb"
+  },
+  "w_id": 17,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Ma'lumotlar kanalining chetki (terminal) apparaturasi va ma'lumotlar oxirgi (terminal) uskunasining majmui.\n\nIzoh-Modemli shaxsiy elektron hisoblash mashinasi, modemlar guruhiga ega bo'lgan katta elektron hisoblash mashinasi va tashqi tarmoqqa ulanish uchun modemga ega bo'lgan lokal hisoblash tarmog'i abonent oxirgi (terminal) qurilmasiga misol bo'ladi.",
+  "uzbek": "Abonent oxirgi (terminal) qurilmasi",
+  "english": "ing.-subscriber terminal (unit)",
+  "russian": "rus.-абонентская оконечная (терминальная) установка",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7bc5589e117ceaa1adcc"
+  },
+  "w_id": 18,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Ko'p kvartirali uyda, shuningdek, yetkazib berish uchastkasida o'rnatiladigan, yozma xat-xabarlarni, davriy bosma nashrlarni, pochta, kuryerlik jo'natmalari va pul mab- lag'larining pochta o'tkazmalari kelganligi to'g'risidagi xabarnomalarni adresatlarga yet- kazib berish uchun mo'ljallangan qulflanadi gan qutichalardan iborat maxsus javon.",
+  "uzbek": "Abonent pochta javoni",
+  "english": " ing.- subscriber postbox",
+  "russian": "rus. - абонентский почтовый шкаф",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7c6c589e117ceaa1adcd"
+  },
+  "w_id": 19,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Telefon tarmog'i abonentiga kommutatsiya stansiyasiga ulanish, abonentning tanlovi bo'yicha ma'lumot uzatish, telefon tar- mog'ining axborot yoki ma'lumot berish xizmatlari va suhbatlashish imkonini beruvchi qurilma.",
+  "uzbek": "Abonent qurilmasi",
+  "russian": " rus.-абонентское устройство",
+  "english": "ing.- subscriber's unit",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7cf6589e117ceaa1adce"
+  },
+  "w_id": 20,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "\"So'nggi milya\" muammosini hal etish va olisdagi foydalanuvchilar bilan aloqa o'rnatish uchun mo'ljallangan simsiz ulanish texnologiyasi.\n Izoh-Bu atama koʻproq, qishloq aloqa tarmoqlarini yaratish so'g'risida so'z borganda ishlatiladi.",
+  "uzbek": "Abonent radioliniyasi",
+  "english": "ing.-radio local loop (RLL)",
+  "russian": "rus.-абонентская радиолиния",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7cf7589e117ceaa1adcf"
+  },
+  "w_id": 21,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "\"So'nggi milya\" muammosini hal etish va olisdagi foydalanuvchilar bilan aloqa o'rnatish uchun mo'ljallangan simsiz ulanish texnologiyasi.\n Izoh-Bu atama koʻproq, qishloq aloqa tarmoqlarini yaratish so'g'risida so'z borganda ishlatiladi.",
+  "uzbek": "Abonent radioliniyasi",
+  "english": "ing.-radio local loop (RLL)",
+  "russian": "rus.-абонентская радиолиния",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7da6589e117ceaa1add0"
+  },
+  "w_id": 22,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Ko'chma stansiyadan yoki ko'chma yer stan- siyasidan chiquvchi (yoki ular uchun mo'ljallangan) hamda butun harakatlanish yo'li davomida yoki uning bir qismida ko'chma xizmat yoki ko'chma yo'ldoshli xizmat radioaloqa kanallari orqali uzatiladigan abonent telegraf chaqiruvi.",
+  "uzbek": "Abonent radiotelegraf chaqiruvi",
+  "english": "ing.-subscriber radio-telegraph call",
+  "russian": "rus.-абонентский радиотелеграфный",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7dda589e117ceaa1add1"
+  },
+  "w_id": 23,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Muayyan joy yoki mintaqada aloqa xizmat- larini ko'rsatuvchi kompaniya operator tomonidan abonentga beriladigan telefon raqami.",
+  "uzbek": "Abonent raqami",
+  "russian": "rus.-абонентский номер",
+  "english": "ing.-subscriber number",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7e3e589e117ceaa1add2"
+  },
+  "w_id": 24,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Otbo'ydan va bog'lanish urilgandan keyin, mikrotelefonni telefon apparatining richagli uzib-ulagichidan olish bilan raqam termas abonentni qayta chaqirish amalga oshi nhishini ta'minlaydigan qo'shimcha xizmat.",
+  "uzbek": "Abonent raqamini termasdan takror chaqirish",
+  "english": "ing.-automatic redial",
+  "russian": "rus.-повторный вызов абонента без набора",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7e75589e117ceaa1add3"
+  },
+  "w_id": 25,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Himoya vositalaridan hamda telefon tar mog'ining har bir abonent liniyasi kommu- tatsion stansiyaning kirishida jihozlanadigan abonent to'plamidan iborat abonent telefon qurilmasi.",
+  "uzbek": "Abonent stansiya qurilmasi",
+  "english": "ing.- subscriber set ",
+  "russian": "rus.-газстанционное абонентское устройство",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7ea1589e117ceaa1add4"
+  },
+  "w_id": 26,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "1. Aloqa kanallari orqali axborotni uzatish/ qabul qilish maqsadida, mobil aloqa tar mog'iga ulanadigan, elektraloqa signallarini shakllantiradigan texnik vosita.\n2. Bevosita foydalanuvchida bo'lgan aloqa va axborotni qayta ishlash vositalari kompleksi.",
+  "uzbek": "Abonent stansiyasi",
+  "russian": "rus.-абонентская станция",
+  "english": "ing.-user station",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7edd589e117ceaa1add5"
+  },
+  "w_id": 27,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Abonent terminallarini transport tarmog'idan, shuningdek, mahalliy aloqani transport tarmog'iga chiqmasdan foydalana olishni ta'minlaydigan mahalliy tarmoq abonent liniyalari va stansiyalarining majmui.",
+  "uzbek": "Abonent tarmog'i (foydalana olish tarmog'i)",
+  "english": "ing.-subscriber network (access network)",
+  "russian": " rus.-абонентская сеть (сеть доступа)",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce7efc589e117ceaa1add6"
+  },
+  "w_id": 28,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Bitta yoki bir nechta abonent rozetkasi ulani shi mumkin bo'lgan tarmoq nuqtasi.",
+  "uzbek": "Abonent tarmoqlagich",
+  "english": "ing-system outlet",
+  "russian": "rus.-абонентский ответвитель",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce803c589e117ceaa1add7"
+  },
+  "w_id": 29,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "1. Abonent xonasiga o'rnatilgan va telekom- munikatsiyalar tarmog'iga ulangan, MChU o'z ichiga olgan telekommunikatsiyalar oxirgi (terminal) apparaturasi.\nIzoh-Terminal MKAni, u abonent xonasida joylashtirilsa (umumiy foydalanishdagi selefon tarmog'i bo'ylab ma'lumotlarni uzatish uchun modem), o'z ichiga olishi mumkin, bunda \"abonent terminali\" tushunchasi \"abonent oxirgi (terminal)  qurilmasi\" tushunchasi bilan mos keladi.\n2. Foydalanuvchi tasarrufidagi antennali, o'lchamlari kichik bo'lgan, tayanch stansiya, yo'ldosh yoki boshqa foydalanuvchi bilan axborot almashishni, jumladan, aloqaga kirish, aloqa seanslarini tayyorlash va amalga oshirish, axborotni kiritish va olishni ta'minlaydigan qabul qilgich-uzatgich.",
+  "russian": "rus.-абонентский термина",
+  "english": "ing.-subscriber terminal",
+  "uzbek": "Abanet terminali",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce807b589e117ceaa1add8"
+  },
+  "w_id": 30,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Tarmoqqa, chaqirilayotgan abonent yo'q vaqtida, xabarnomani qayta tiklash orqali barcha kiruvchi chaqiruvlarga javob berish imkonini beradigan xizmat.",
+  "uzbek": "Abonent yo'q xizmati",
+  "english": "ing.-Subscriber absent» service",
+  "russian": "rus.-услуга «Абонент отсутствует",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce80c4589e117ceaa1add9"
+  },
+  "w_id": 31,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Jo'natuvchi va oluvchi o'rtasida telekommunikatsiyalar vositalari yordamida bevosita uzatiladigan axborotning kriptografik usullar bilan muhofaza qilinishi.",
+  "uzbek": "Abonent shifrlash",
+  "english": "ing.-end-to-end encryption",
+  "russian": "rus. абонентское шифрование",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce8103589e117ceaa1adda"
+  },
+  "w_id": 32,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Abonentga kommutatsiya stansiyasining avtoinformatori bilan bog'lana olish imkoni- ni beradigan qo'shimcha xizmat.",
+  "uzbek": "Abonent chaqiruvini avtoinformatorga uzatish",
+  "english": "ing.voice box",
+  "russian": "rus. передача вызова абонента на автоинформатор",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce8138589e117ceaa1addb"
+  },
+  "w_id": 33,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Abonent joyini o'zgartirganda chaqiruvni bir necha marta qayta manzillash imkoniga ega qo'shimcha xizmat.",
+  "uzbek": "Abonentga hamroh chaqiruv",
+  "english": " ing.-follow me",
+  "russian": "rus.-сопровождающий вызов абонента",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce817f589e117ceaa1addc"
+  },
+  "w_id": 34,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Abonentlarning, o'zlarining turgan joyi va ulanish imkoniyati. tarmoq topologiyasidan qat'i nazar, tarmoqqa ulanish imkoniyati.",
+  "uzbek": "Abonentlar darajasidagi ochiqlik",
+  "english": "ing.-user transparency",
+  "russian": "rus.-прозрачность на уровне абонентов ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65ce8400589e117ceaa1addd"
+  },
+  "w_id": 35,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Dastariy, dasturiy-apparat va apparat vositalariga tatbiq qilingan dastur. Bundan maqsad ayrim shaxsi o'rnatilmagan yoki zarar keltiruvchi harakatlar sodir etish. Masalan, mantiqiy bomba, troyan on, virus, qurt.",
+  "uzbek": "Badniyat mantiq",
+  "english": "rus.-наморенная логика",
+  "russian": "ing-malicious logic",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1150c9ae885a545fcf955"
+  },
+  "w_id": 36,
+  "description": "Dasturiy, dasturiy-apparat va apparat vositalariga tatbiq qilingan dastur.Bundan maqsad ayrim shaxsi o'rnatilmagan yoki zarar keltiruvchi harakatlar sodir etish.Masalan, mantiqiy bomba, troyan oti,virus, qurt.\n",
+  "uzbek": "Badniyat mantiq",
+  "russian": "rus.-злонамеренная логика",
+  "english": "ing.- malicious logic",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d115d09ae885a545fcf956"
+  },
+  "w_id": 37,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Apparat yoki dasturiy ta'minot ishlab chiqarishda yo'l qo'yilgan mantiqiy yoki tasodifiy xato.Tizim ishidagi uzilishlar sababi,dasturiy vositalar bilan bog'liq muammo hisoblanadi.Kodni tuzatish yo'li bilan bartaraf qilinadi.",
+  "uzbek": "Bag ",
+  "russian": "rus.-баг",
+  "english": "ing.-bug",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d116369ae885a545fcf957"
+  },
+  "w_id": 38,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Xavfsizlik bo'yicha topshiriq yoki baholash obyektining muayyan mezonlar bo'yicha himoya profilining bahosi.",
+  "uzbek": "Baho",
+  "english": "ing.-evaluation",
+  "russian": "rus.-оненка",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1165c9ae885a545fcf958"
+  },
+  "w_id": 39,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Ma'lumotlarni tahlil qilish usuli, turli dastur larda fonli korrelyatsiyadan ishonchli ajratish maqsadida, ma'lumotlar ketma-ketligiga nis- batan qo'llaniladi.",
+  "uzbek": "Baholangan korrelyatsiya",
+  "english": "ing.-enhanced correlation",
+  "russian": "rus.-извешенная корреляция ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1169e9ae885a545fcf959"
+  },
+  "w_id": 40,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Baholovchi tomonidan jarayon xossasini ba- holashga nisbatan chiqarilgan hukmni (fikrni) tasdiqlash uchun foydalaniladigan obyektiv ma'lumotlar manbalari.\nIzoh-Amaliy harakatlar, axborot elementlari yoki remeslari uluslash indikatorlariga misol bo'la oladi.",
+  "uzbek": "Baholash indikatori",
+  "english": " ing-assessment indicator",
+  "russian": "rus.-индикатор оценки",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d116ea9ae885a545fcf95a"
+  },
+  "w_id": 41,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Davlat xizmatlari yo'lidagi to'sqinliklar ni aniqlash maqsadida, davlat va xo'jalik boshqaruvi, mahalliy o'zini-o'zi boshqarish organlari va boshqa tashkilotlar tuzilmaviy asosi.",
+  "uzbek": "Baholash natijalari",
+  "english": "ing.-evaluation results",
+  "russian": "rus.-результаты оценки",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d117599ae885a545fcf95b"
+  },
+  "w_id": 42,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Baholash obyektining ishlashi uchun zarur bo'lgan, FXT bajarilishini ta'minlaydigan ma'lumotlar.",
+  "uzbek": "Baholash obyekti xavfsizlik funksiyalarining ma'lumotlari",
+  "russian": "rus.-данные функция безопасности объекта оценки",
+  "english": "ing.-target security functions of evaluation data",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1175a9ae885a545fcf95c"
+  },
+  "w_id": 43,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Baholash obyektining ishlashi uchun zarur bo'lgan, FXT bajarilishini ta'minlaydigan ma'lumotlar.",
+  "uzbek": "Baholash obyekti xavfsizlik funksiyalarining ma'lumotlari",
+  "russian": "rus.-данные функция безопасности объекта оценки",
+  "english": "ing.-target security functions of evaluation data",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1175a9ae885a545fcf95d"
+  },
+  "w_id": 44,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Baholash obyektining ishlashi uchun zarur bo'lgan, FXT bajarilishini ta'minlaydigan ma'lumotlar.",
+  "uzbek": "Baholash obyekti xavfsizlik funksiyalarining ma'lumotlari",
+  "russian": "rus.-данные функция безопасности объекта оценки",
+  "english": "ing.-target security functions of evaluation data",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1175a9ae885a545fcf95e"
+  },
+  "w_id": 44,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Baholash obyektining ishlashi uchun zarur bo'lgan, FXT bajarilishini ta'minlaydigan ma'lumotlar.",
+  "uzbek": "Baholash obyekti xavfsizlik funksiyalarining ma'lumotlari",
+  "russian": "rus.-данные функция безопасности объекта оценки",
+  "english": "ing.-target security functions of evaluation data",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1175b9ae885a545fcf95f"
+  },
+  "w_id": 45,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Baholash obyektining ishlashi uchun zarur bo'lgan, FXT bajarilishini ta'minlaydigan ma'lumotlar.",
+  "uzbek": "Baholash obyekti xavfsizlik funksiyalarining ma'lumotlari",
+  "russian": "rus.-данные функция безопасности объекта оценки",
+  "english": "ing.-target security functions of evaluation data",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d117699ae885a545fcf960"
+  },
+  "w_id": 46,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Baholash obyektining ishlashi uchun zarur bo'lgan, FXT bajarilishini ta'minlaydigan ma'lumotlar.",
+  "uzbek": "Baholash obyekti xavfsizlik funksiyalarining ma'lumotlari",
+  "russian": "rus.-данные функция безопасности объекта оценки",
+  "english": "ing.-target security functions of evaluation data",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d117e09ae885a545fcf961"
+  },
+  "w_id": 47,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Tashqi mantiqiy obyektlar (yoki OXF- da bo'lmagan BO subyektlar) OXFdan/ga ma'lumotlar uzatadigan/oladigan, shuning- dek, OXF xizmatlaridan foydalanadigan vositalar.\n",
+  "uzbek": "Baholash obyekti xavfsizlik funksiyasining interfeysi",
+  "english": "ing.-target security functions of evaluation interface ",
+  "russian": "rus.-интерфейс функции безопасности объекта оценки",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d118429ae885a545fcf962"
+  },
+  "w_id": 48,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Ma'lumotlarni baholash obyekti hamda axborot texnologiyalarining boshqa ishonchli mahsulotlari xavfsizligining funksional imkoniyatlari orasida uzatish.",
+  "uzbek": "Baholash obyektini xavfsizlik funksiyalari orasida uzatish",
+  "english": "ing.-inter target security functions of evaluation transfers",
+  "russian": "rus.-передача между функциями безопасности объекта оценки",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1186a9ae885a545fcf963"
+  },
+  "w_id": 49,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Baholash obyekti foydalanadigan yoki unga zarur bo'ladigan barcha narsa.",
+  "uzbek": "Baholash obyektining resursi",
+  "english": "ing.- TOE resource",
+  "russian": "rus. - ресурс объекта оценки",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d118ad9ae885a545fcf964"
+  },
+  "w_id": 50,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Baholash obyektining xavfsizlik siyosatini amalga oshirishga yo'naltirilgan, baholash obyektining barcha xavfsizlik funksiyalari majmui.",
+  "uzbek": "Baholash obyektining xavfsizlik funksiyalari",
+  "english": "ing.-security functions of object evaluation",
+  "russian": "rus.-функции безопасности объекта оценки",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d118dd9ae885a545fcf965"
+  },
+  "w_id": 51,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Tashkilotlarning muayyan hamjamiyati doirasida o'tkaziladigan, baholash sifatini nazorat qiluvchi va standartlarni belgilovchi tashkilot.",
+  "uzbek": "Baholash organi",
+  "english": "ing.-evaluation authority",
+  "russian": "rus.-орган оценки",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1fde29ae885a545fcf966"
+  },
+  "w_id": 52,
+  "description": "Baholashga taalluqli bo'lgan, baholash chog'ida yaratilgan jarayon profillarini aniqlashtiradigan yoki tasdiqlaydigan, tartiblashtirilgan hujjatli axborot.",
+  "uzbek": "Baholash yozuvi ",
+  "english": "ing.-assessment record",
+  "russian": "rus.-запись оценки",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1fe7b9ae885a545fcf967"
+  },
+  "w_id": 53,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Ruxsat etish, cheklash, detallashtirish darajasi, ishonchlilik diapazonlari va darajalari kabi loyihani baholashlarni tuzishda foydalaniladigan tafsilotlar bayon qilingan hujjatlarni qo'llab-quvvatlash.",
+  "uzbek": "Baholashlar asosi",
+  "english": "ing.-basis of estimates",
+  "russian": "rus.-основа оценокя",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1fed29ae885a545fcf968"
+  },
+  "w_id": 54,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Jarayonning holati, bunda operatsion tizim boshqaruvi ostidagi protsessorda yoki kompyuter tizimi protsessorlarida jarayon komandalari bajariladi.",
+  "uzbek": "Bajariladigan",
+  "english": "ing. - running",
+  "russian": "rus. - исполняемый",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1feff9ae885a545fcf969"
+  },
+  "w_id": 55,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Operatsion tizim bajarishi uchun tayyor bo'lgan fayl yoki komanda fayli.",
+  "uzbek": "Bajariladigan fayl",
+  "english": "ing. - executable file",
+  "russian": "rus. - исполняемый файл",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1ff349ae885a545fcf96a"
+  },
+  "w_id": 56,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Protsessor bajarishi mumkin bo'lgan translyatsiya qilingan dastur umumiy nomi.\n",
+  "uzbek": "Bajariladigan kod",
+  "english": "ing.-executable code",
+  "russian": "rus.-исполняемый код",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1ff679ae885a545fcf96b"
+  },
+  "w_id": 57,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "HTML-fayldan ishga tushiriladigan ilova.",
+  "uzbek": "Bajariladigan kontent",
+  "english": "ing.-executable content",
+  "russian": "rus.-исполняемый контент",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d1ffa79ae885a545fcf96c"
+  },
+  "w_id": 58,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Harakatlanuvchi indikatorli satr ko'rinishidagi element. U jarayonning borishini aks ettirishda ishlatiladi.",
+  "uzbek": "Bajarilish indikatori (jarayonni)",
+  "english": "ing.-progress bar",
+  "russian": "rus.-индикатор выполнения (прогресса)",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d200419ae885a545fcf96d"
+  },
+  "w_id": 59,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Kompyuter dasturi komandalari bajaril vaqtining yoki absolyut yo nisbiy chastos sining ko'rsatilishi.",
+  "uzbek": "Bajarish profili",
+  "english": "ing.-execution profile",
+  "russian": "rus.-профиль выполнения",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d200bb9ae885a545fcf96e"
+  },
+  "w_id": 60,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Moslashuvchan manzillash sxemasi, bunda dasturning yoki ma'lumotlarning manzili faqat dasturni bajarish paytida aniqlanadi, amalga oshirish uchun manzilla aks ettirishni apparatli qo'llab-quvvatlas foydalaniladi, masalan, bazalar va chegaralar registrlari.",
+  "uzbek": "Bajarish vaqtida manzillarni bog'lash yoki dinamik (keyinroq) bog'lash",
+  "english": " ing.-binding addresses during execution or dynamic (late) binding",
+  "russian": "rus.- связывание адресов во время исполнения или динамическое (поздно) связывание",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2010a9ae885a545fcf96f"
+  },
+  "w_id": 61,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "NET texnologiyalariya doirasida Visual Basic, Visual C++, JScript, Visual C dasturlash tillarini qo'llab-quvvatlash uchun Microsoft korporatsiyasi tomonidan sh chiqilgan tizim. Barcha kompilyatorlar CLB bilan birgalikda dasturning asos matri MSIL tiliga o'giradi, shuning uchun qater massiv, obyektlarning turli tillardagi e'lo qilinish farqi CLR da yo'qoladi.",
+  "uzbek": "Bajarish vaqtini qo'llab-quvvatlash",
+  "english": "ing.-common language runtime (CLR)",
+  "russian": "rus. - общая система поддержки времени выполнения",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d201499ae885a545fcf970"
+  },
+  "w_id": 62,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Algoritm yozilgan tilni tushunadigan, bu goritmni juda aniq bajara oladigan odam yoki avtomatik qurilma. Kompyuter axbo algoritmlarini universal bajaruvchidir. jaruvchi komandalar haqiqatda bajarilay ganda real bo'lishi, komandalar modellasi rilayotganda shartli bo'lishi mumkin.",
+  "uzbek": "Bajaruvchi",
+  "english": "ing.-executant",
+  "russian": "rus.-исполнитель",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2017a9ae885a545fcf971"
+  },
+  "w_id": 63,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Protsessorda mashina komandalarini bajarish bloki.",
+  "uzbek": "Bajaruvchi blok",
+  "russian": "rus.-исполнительный блок",
+  "english": "ing. execution unit",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d201d79ae885a545fcf972"
+  },
+  "w_id": 64,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Asosiy tizim servislarini amalga oshiruvchi himoyalangan rejimda bajariladigan Windows yadrosining asosiy qismi.",
+  "uzbek": "Bajaruvchi kichik tizim",
+  "english": "ing. -executive",
+  "russian": "rus.-исполнительная подсистема",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d202db9ae885a545fcf976"
+  },
+  "w_id": 66,
+  "description": "Xotirlovchi qurilmaning, komandada ko'rsa tilgan manzillash usuliga muvofiq, dasturni bajarishda hisoblab chiqilgan manzili.",
+  "uzbek": "Bajaruvchi manzil",
+  "english": "ing.-effective address",
+  "russian": "rus.-исполнительный адрес",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22a6e3ea7874f3bacf150"
+  },
+  "w_id": 67,
+  "description": "Manbaga yoki qurilmalarga nisbatan ishla tiladi. Manba yoki qurilma ishlayotganligi sababli, unga vaqtincha ulanish mumkin emasligini bildiradi.",
+  "uzbek": "Band",
+  "english": "ing.-busy",
+  "russian": "rus.-занято",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22ac43ea7874f3bacf151"
+  },
+  "w_id": 68,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Chaqiruvchi abonentga so'zlashuv bilan band bo'lgan chaqiriluvchi abonent bilan u bo'sha- gan zahoti ulanish imkonini beradigan xizmat.\nIzoh-Chaqiruvchi abonent bir vaqtdagi chaqiruvlarning maksimal soniga va bitta yoki barcha chaqiruvlarni bekor qilish huquqiga ega bo'lishi mumkin.",
+  "uzbek": "Band bo'lgan abonentga chaqiruvlarni tugatish",
+  "english": "ing.-call completion to the busy subscriber (CCBS)",
+  "russian": "rus.-завершение вызовов к занятому абоненту",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22af13ea7874f3bacf152"
+  },
+  "w_id": 69,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Axborot yuklamasining bir qismini chiqarib tashlash hamda uning o'rniga xizmatga oid axborotni kiritish hisobiga, aloqa liniyalari va kanallarining oʻtkazish qobiliyatini majburan qayta taqsimlash protsedurasi.\n",
+  "uzbek": "Band etish; qamrab olish",
+  "english": "ing.-stealing",
+  "russian": "rus. - занятие; захват",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22b193ea7874f3bacf153"
+  },
+  "w_id": 70,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Abonentning telefon so'zlashuv olib bo- rilayotgan aloqa liniyasiga ulanish imkoniyati.",
+  "uzbek": "Band liniyaga ulanish",
+  "english": "ing.-connecting to busy line",
+  "russian": "rus.-подключение к занятой линии",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22b363ea7874f3bacf154"
+  },
+  "w_id": 71,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Biron-bir boshqa jarayon (obyekt) bilan band resurs (masalan, tezkor xotira).",
+  "uzbek": "Band qilingan, egallangan",
+  "english": "ing.-occupied",
+  "russian": "rus. - занятый",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22b663ea7874f3bacf155"
+  },
+  "w_id": 72,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "O'lchamlari, og'irligi va o'rash tartibi Pochta aloqasi xizmatlari ko'rsatish qoidalarida belgilangan, bosma nashrlar, ish qog'ozlari va boshqa buyumlar solingan ichki pochta, kuryerlik jo'natmasining turi.",
+  "uzbek": "Banderol",
+  "english": "ing.-letter packet",
+  "russian": "rus.-бандероль",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22baf3ea7874f3bacf156"
+  },
+  "w_id": 73,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Band abonentga chaqiruvni qayd etish imkonini beradigan xizmat. Chaqiruvchi abonent shu abonentning o'ziga kelgusi gal chaqiruv yuborishni xohlasa, bog'lanish chaqiriluvchi abonent go'shakni ko'targandan so'ng avtomatik tarzda oʻrnatiladi.\n",
+  "uzbek": "Bandlik vaqtida chaqiruvni qayd etish",
+  "english": " ing.-call registration on busy",
+  "russian": "rus. -регистрация вызова при занятости",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22c0d3ea7874f3bacf157"
+  },
+  "w_id": 74,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Bankka yoki banklar guruhiga xizmat ko'rsatuvchi axborot tizimi. Bank tarmog'i virtual tarmoq yoki fizik tarmoq bo'ladi. Birinchi holda u, ko'p maqsadli tarmoqning mantiqiy ajratilgan qismi (begona shaxslar uchun berk) resurslarining bir qismidan yakka hokim sifatda foydalanadi. Ikkinchi holda, axborot tizimining barcha jihozlari va dasturiy ta'minoti faqat bank tizimlarining ishlashi uchun mo'ljallangan bo'ladi (masalan, SWIFT tarmog'i). Bank tarmog'ining asosiy vazifalari quyidagilardan iborat: banklar, ularning tarkibiy qismlari va bo'limlari o'rtasida moliyaviy elektron hujjatlarni uzatish; hisoblarni bajarishda tranzaksiyalarni quvvatlash; moliyaviy ma'lumotlar bazasidan foydalanishni ta'minlash; uzoqlikdagi bankomatlarning ishini quvvatlash; banklarning lokal tarmoqlarini birlashtirish; moliya axborot tizimlaridan foydalanish; ma'lumotlarning xavfsizligini ta'minlash.",
+  "uzbek": "Bank tarmog'i",
+  "english": "ing.-banking network",
+  "russian": "rus. - банковская сеть",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22ca93ea7874f3bacf158"
+  },
+  "w_id": 75,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Bankda moliyaviy va hisobga tegishli operatsiyalar bajarilishini ta'minlovchi texnik va dasturiy vositalar majmui.",
+  "uzbek": "Bank tizimi",
+  "english": "ing.-banking system",
+  "russian": "rus.-банковская система",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22eb63ea7874f3bacf159"
+  },
+  "w_id": 76,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Operatsion tizim tomonidan resurslarni taqsimlashda berk yo'llarni tasvirlash uchun mo'ljalangan E.Deykstri lagoritimi.",
+  "uzbek": "Bankir algoritmi",
+  "english": "ing.-banker's algorithm",
+  "russian": "rus.-алгоритм банкира",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22f213ea7874f3bacf15a"
+  },
+  "w_id": 77,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Bank tizimlarining oʻzaro ishlash vazifalarini bajaruvchi tarmoq xizmati tizimi. Bankla raro tizim ko'p maqsadli tarmoqlar yoki maxsus bank tarmoqlaridan foydalangan holda banklarda naqd pulsiz hisob-kitoblarni avtomatlashtirishni ta'minlaydi. Banklararo tizimlar ishning katta ishonchliligini va ma'lumotlar xavfsizligini ta'minlaydigan tarzda quriladi. Xalqaro hank moliyaviy tarmoqlar jamiyati o'zining SWIFT tarmog'iga ega.",
+  "uzbek": "Banklararo tizim",
+  "russian": "rus.-межбанковская система",
+  "english": "ing.-interbank system",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22f773ea7874f3bacf15b"
+  },
+  "w_id": 78,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Bank mijozlarining masofadan o'z-o'zlariga xizmat qilishlarini ta'minlovchi qurilma. Bankomat ixtisoslashtirilgan foydalanuvchi tizimi bo'lib, mijoz undan foydalanib qator bank operatsiyalarini hajarishi mumkin qog'oz kupyuralarni berish, pul qabul qilish, o'z hisobidan, magnit yoki kompyuter kartochkasidan boshqa hisobga pul o'tkazish. Bankomatdan foydalanishda mijozga klaviatura, kartochkalarni kirgizish qurilmasi va monitor taqdim etiladi.",
+  "uzbek": "Bankomat",
+  "english": "ng-ATM",
+  "russian": "rus.- банкомат",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d22fca3ea7874f3bacf15c"
+  },
+  "w_id": 79,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "1. Maqola yoki hujjatning, sahifaning butun kengligi bo'yicha yoyilgan sarlavhasi. 2. Veb-sahifaning, reklamani va reklama benuvchining veb-saytiga havolani ichiga oladigan qismi.",
+  "uzbek": "Banner",
+  "russian": "rus.- баннер",
+  "english": "ing.-banner",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2307e3ea7874f3bacf15d"
+  },
+  "w_id": 80,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Reklama maydonlari ishtirok etgan reklama tarmog'i. Bannerlar almashish tarmoqlari ning ko'pi ochiqdir, ya'ni tarmoqning rekla- ma siyosatiga javob beruvchi xohlagan sayt uning ishtirokchisi bo'lishi mumkin. Ban- nerlarni almashish ishtirokchisi o'z sahifalarida boshqa ishtirokchilar, buning uchun u o'z sayti sahifalarda tarmoq kodini joylashtiradi. Buning va u, o'z reklamasini boshqa ishtirokchile hifalarida ko'rnatish huquqi va imkoniyati ega bo'ladi. O'z reklamasini boshqa saytlar ko'natish soni boshqalar reklamasini o'z sahifalarida ko'rsatishlar soniga to'g'rini nisbatda bog'liq.\n",
+  "uzbek": "Banner almashish tarmog'i",
+  "russian": "rus. - баннерообменная сеть",
+  "english": "ing.banner exchange network",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d231173ea7874f3bacf15e"
+  },
+  "w_id": 81,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Bannerni veb-sayt tashrifchisiga amala namoyish qilish. Tashrifchining brauzeri ushbu bannerni so'rab, uni to'la yuklaganidan so'ng hisobga olinadi.",
+  "uzbek": "Banner namoyishi",
+  "english": "ing.-banner demonstration",
+  "russian": "rus. - баннеропоказ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d232293ea7874f3bacf15f"
+  },
+  "w_id": 82,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Kaskadli manzillanadigan tezkor taqsimlas gan tarmoq. Banyan tarmog'ining tuzilmas 16 kirish va chiqishga ega bo'lib bir-biri bilan ulangan oddiy ulovchi elementlardan tashkil topgan. Shu elementlar ketma-ketligi orqali ma'lumotlar bloklari uzatiladi. Banyan tarmoqlari katta o'tkazish qobiliyatini ta'minlay oladilar, chunki, ma'lumotlar bloklari ular orqali parallel ravishda o'tadi, mashrutla vazifalarini esa, apparatlar bajaradi. Banyan tarmoqlari integral ulab-uzish uzellarida qo'llaniladi.",
+  "uzbek": "Banyan tarmog'i",
+  "english": "ing. - banyan network",
+  "russian": "rus. - бальяновая сеть",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2330e3ea7874f3bacf160"
+  },
+  "w_id": 83,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Aloqa tarmog'idagi qo'shimcha xizmat, dan foydalanilganda barcha kiruvchi chap ruvlar abonentga kelib tushmaydi, chiquvchi chaqiruvlar esa, biror-bir cheklashlarsiz uzatiladi.",
+  "uzbek": "Barcha kiruvchi chaqiruvlarning taqiqlanishi",
+  "english": "ing.-barring of all incoming calls",
+  "russian": "rus.-запрет всех входящих вызовов",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2331e3ea7874f3bacf161"
+  },
+  "w_id": 84,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Aloqa tarmog'idagi qo'shimcha xizmat, dan foydalanilganda barcha kiruvchi chap ruvlar abonentga kelib tushmaydi, chiquvchi chaqiruvlar esa, biror-bir cheklashlarsiz uzatiladi.",
+  "uzbek": "Barcha kiruvchi chaqiruvlarning taqiqlanishi",
+  "english": "ing.-barring of all incoming calls",
+  "russian": "rus.-запрет всех входящих вызовов",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d23cdf3ea7874f3bacf162"
+  },
+  "w_id": 85,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Mobil abonentdan chiquvchi chaqiruvlar ni, shoshilinch chaqiruvlardan tashqari, ta qiqlash imkonini beradigan xizmat.",
+  "uzbek": "Barcha chiquvchi chaqiruvlarni taqiqlash",
+  "english": "ing.-outgoing call barring (BAOC) ",
+  "russian": "rus. - запрещение всех исходящих вызовов ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d23d803ea7874f3bacf163"
+  },
+  "w_id": 86,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Aloqa tarmog'idagi qo'shimcha xizmat, undan foydalanilganda chaqiriluvchi abonent- ning raqami yoki uning joylashgan o'rni to'g'risidagi ma'lumotlarni o'zida saqlay digan chiquvchi chaqiruvlar cheklanadi.\n Izoh-Bunday xizmat ko'rinishlaridan biri barcha xalqaro chaqiruchilarning taqiqlanishadir.\n",
+  "uzbek": "Barcha chiquvchi chaqiruvlarning taqiqlanishi",
+  "english": "ing.-barring of all outgoing calls",
+  "russian": "rus.-запрет всех исходящих вызовов",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d23df33ea7874f3bacf164"
+  },
+  "w_id": 87,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Barcha chiquvchi xalqaro chaqiruvlarni taqiqlash imkonini beradigan xizmat. Izoh-Bunday holatda, abonent faqat o'zining MAT va u bilan xizmatlari integratsiyalashgan umumiy foydala nishdagi telefon tarmog'i orqali bog'langan abonentga chiquvchi chaqiruvlarni jo'natish imkoniga ega bo'ladi.",
+  "uzbek": "Barcha chiquvchi xalqaro chaqiruvlarni taqiqlash",
+  "english": "ing.-international outgoing call barring (BIOC)",
+  "russian": "rus.-запрещение всех исходящих международных вызовов",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d23e193ea7874f3bacf165"
+  },
+  "w_id": 88,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Barcha kiritilgan o'zgartirishlar qabul qilinadigan tanlash varianti. Odatda ushbu atama operatsion tizimlarda nusxa olish, saqlash hamda o'zgartirishlarni qabul qilish jarayonida ishlatiladi.",
+  "uzbek": "Barchasini qabul qilish",
+  "english": "ing. accept all",
+  "russian": "rus.-принять все",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d23e3d3ea7874f3bacf166"
+  },
+  "w_id": 89,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Kalitlarni generatsiyalash, tarqatish va saqlashda kriptoanalitiklarning algoritm bilan ruxsat etilmagan tarzda tanishish imkoniyati.",
+  "uzbek": "Bardoshsizlik",
+  "english": "ing. - nonpersistency",
+  "russian": "rus.-нестойкость",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d23e6d3ea7874f3bacf167"
+  },
+  "w_id": 90,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "U moliyaviy operatsiyalarni bajarish uchun mo'ljallangan tashqi qurilmadir. Mikropro tsessorli halqa kompyuter kartochkasiga muqobil yechimdir. Har bir halqa xotirasiga yazib (tikib) qo'yilgan 64-razryadli raqamga ega. Bu AQSH banklar assotsiasiyasi stand- arti tomonidan belgilangan yuqori darajadagi muhofazani ta'minlaydi.",
+  "uzbek": "Barmoqdagi halqa",
+  "english": "ing.-finger ring",
+  "russian": "rus.-кольцо на пальце",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d23e9f3ea7874f3bacf168"
+  },
+  "w_id": 91,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Uzunligi amalda barqaror kriptotizim tuzish uchun yetarli bo'lgan kalit.",
+  "uzbek": "Barqaror kalit",
+  "english": "ing.-strong key ",
+  "russian": " rus.-стойкий ключ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d23ee93ea7874f3bacf169"
+  },
+  "w_id": 92,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Muvaffaqiyatli bajarilishi to'g'risida foydalanuvchi xabardor bo'lgan tranzaksiya tizimi ishlamay qolganda ham yo'qotilmasligini kafolatlash imkonini beradigan ma'lumotlar bazasining xususiyati. Odatda, barcha tranzaksiyalar maxsus jurnalga qayd qilinadi, bu tizimning ishlamay qolishdan oldingi holatini tiklash va tranzaksiyaning bajarilishini ta'minlash imkonini beradi.",
+  "uzbek": " Barqarorlik",
+  "english": "ing.-robustness",
+  "russian": "rus.-устойчивость",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d23f463ea7874f3bacf16a"
+  },
+  "w_id": 93,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Oqibatlarini tizim vositalari yordamida bartaraf qilib bo'lmaydigan va operatorning aralashuvi talab qilinadigan xato. Masalan, dasturning normal yakunlanmasligi keltirib chiqaradigan xato shular jumlasidan.",
+  "uzbek": "Bartaraf qilib bo'lmaydigan xato",
+  "english": "ing.-unconvertable error",
+  "russian": "rus. - неустранимая ошибка",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d23f823ea7874f3bacf16b"
+  },
+  "w_id": 94,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Ko'rilayotgan loyiha yechimini taqqoslash uchun qabul qilinadigan boshlang'ich loyiha yechimi.",
+  "uzbek": "Basiz variant",
+  "english": "ing.-basis alternative",
+  "russian": "rus.-базисный вариант",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d23fe93ea7874f3bacf16c"
+  },
+  "w_id": 95,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Tashqi va ichki tarmoqlar oralig'iga joylashtiriladigan, tarmoqlararo ekranning das turiy ta'minotida ishlaydigan kompyutershlyuz. Internet-saytlardan foydalanish xiz mati va ichki tarmoqning muhofaza qilinishini ta'minlaydi.",
+  "uzbek": "Bastion ",
+  "english": "ing.-bastion host",
+  "russian": "rus. - бастион",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2409a3ea7874f3bacf16d"
+  },
+  "w_id": 96,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "O'zicha yoki boshqa axborot bilan birga foy- dalanilganda, bahsni hal qilish uchun qo'llan- ilishi mumkin bo'lgan axborot. ",
+  "uzbek": "Dalil",
+  "english": "ing.-evidence",
+  "russian": "rus.- доказательство",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d241793ea7874f3bacf16e"
+  },
+  "w_id": 97,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "1. Xotira yoki fayl ichidagini ekranga chiqarish, faylga olish yoki chop etish.Odatda, matnli xabarlarni izlash uchun, yoki kompyuterning osilib qolish sabablarini aniqlash maqsadida, shuningdek, dasturni sozlash paytida amalga oshiriladi. 2. Kriptovalyuta kursining iqtisodiy jihatdan juda tez va asossiz pasayishiga olib boruvchi vaziyat. Odatda tajribali treyderlarning maqsadli harakatlari natijasida yuzaga keladi.",
+  "uzbek": "Damp",
+  "english": "ing.-dump",
+  "russian": "rus.-дамп",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d241b83ea7874f3bacf16f"
+  },
+  "w_id": 98,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "60 sekundga teng vaqt birligi. Ma'lumotlarni uzatish tezligini aniqlashda ishlatiladigan asosiy kattaliklardan biri.",
+  "uzbek": "Daqiqa",
+  "english": "ing.-minute",
+  "russian": "rus.-минута",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d241fa3ea7874f3bacf170"
+  },
+  "w_id": 99,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Videosignalni, odatda, kuchlanishni taqdim etuvchi elektr kattalikning ko'pincha foizlarda yoki ma'lum tayanch ko'lamining ulushi, masalan, 1 volt bilan ifodalanadigan videosignal chegarasiga nisbatan oniy qiymati.",
+  "uzbek": "Daraja videosignal",
+  "english": "ing.-level of a video signal",
+  "russian": "rus.-уровень видеосигнала",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d243023ea7874f3bacf171"
+  },
+  "w_id": 100,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Muayyan signallar yoki kabel taqsimlash tizimining shu nuqtasidagi signallar guruhi o'rtasida atayin o'rnatilgan darajalar farqi.",
+  "uzbek": "Darajalarni oldindan korreksiya qilish",
+  "english": "ing.-precorrection of levels",
+  "russian": "rus. - предкоррекция уровней",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2437a3ea7874f3bacf172"
+  },
+  "w_id": 101,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Eshittirish televideniyesi trakti yoki trakizvenosining tasvir kanali chiqishidagi televizion tasvir yorqinlik darajalarining yoki yorqinlik signali darajalarining bu kanal ki shidagi obyektlar yorqinlik darajalariga yoki yorqinlik signali darajalariga bog'liqligi.",
+  "uzbek": "Darajalarni uzatish xarakteristikasi",
+  "english": "ing.-characteristic of transmission of leveh",
+  "russian": "rus, - характеристика передачи уровней",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d243e93ea7874f3bacf173"
+  },
+  "w_id": 102,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Ma'lum xarakteristikalarga ega o'lchash apparaturasidan foydalanib dasturiy signallarning darajasini kuzatish.",
+  "uzbek": "Darajani nazorat qilish",
+  "english": "ing.-level monitoring",
+  "russian": "rus.-контроль уровня",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d246b93ea7874f3bacf174"
+  },
+  "w_id": 103,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "1. To'liq videosignal bir qismi darajasiтi ma'lum qiymatda ushlab turish. 2. Sinxronlash signali impulslarining o'chirish darajasi yoki yuqori darajasi bitta po tensialga keltiriladigan videosignalni qayta ishlash.\nIzoh - Darajani qayd etish, odatda, tasvirning doimiy tashkil etuvchisini tiklashda qo'llaniladi.",
+  "uzbek": "Darajani qayd etish",
+  "english": "ing.-clamping ",
+  "russian": "rus.-фиксация уровня",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d248693ea7874f3bacf175"
+  },
+  "w_id": 104,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Bitta yoki bir nechta signalning doimiy darajasini, signalga nisbatan boshqa vositalar yordamida, masalan, pilot-signal, temperaturali kompensator, distansion boshqaruv va b.lar yordamida ushlab turish qurilmasi.",
+  "uzbek": "Darajani rostlagich (kabel tarmog'ida)",
+  "english": "ing.- level controller (in cable network) ",
+  "russian": "rus. - регулятор уровня (в кабельной сети)",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d248963ea7874f3bacf176"
+  },
+  "w_id": 105,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Daraxtni eslatadigan tuzilma. Uning asosida bir qancha element (tana) bog'langan bitta element (ildiz) bo'ladi. Bu elementlar (tana lar) o'z navbatida yana bir qancha (shoxlar) bilan bog'langan va h.k, shu tarzda so'nggi elementlargacha (yaproqlargacha). Natijada ko'p pog'onali daraxt hosil bo'ladi. Daraxt - bu, bog'langan yo'naltirilmagan siklsiz grafdir.",
+  "uzbek": "Daraxt",
+  "english": "ing. - tree",
+  "russian": "rus. - дерево",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d248ce3ea7874f3bacf177"
+  },
+  "w_id": 106,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Simvollarni qayta ishlash uzluksiz tarzda, bloklarga ajratmasdan amalga oshiriladigan kod.",
+  "uzbek": "Daraxtsimon kod ",
+  "english": " ing.-tree-type code",
+  "russian": "rus.-древовидный код ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d249083ea7874f3bacf178"
+  },
+  "w_id": 107,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Displeyning ma'lum jarayonni aks ettiruvchi qismi.",
+  "uzbek": "Darcha",
+  "russian": "rus. - «окошко»",
+  "english": "ing. - window",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d249cb3ea7874f3bacf179"
+  },
+  "w_id": 108,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Tanlash elementlaridan biri. Barcha sozlashlar avvaldan kiritilgan boshlang'ich konfiguratsiyada qo'llaniladi. Aksariyat hollarda dasturiy ta'minotni o'rnatishda foydalaniladi. Bunday holatda ishlab chiquvchilar tomonidan eng ommabop tanlov zanjiri shakllantiradi,bu esa foydalunuvchining sozlash jarayonini  amalga oshirmasligiga imkon beradi.",
+  "uzbek": "Dastlabki, boshlang'ich berilgan",
+  "russian": "rus.-по умолчанию",
+  "english": "ing.-default",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24a273ea7874f3bacf17a"
+  },
+  "w_id": 109,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Signal/shovqin nisbatini yaxshilash maqsadi da, aloqa kanali bo'ylab uzatishdan oldin signalning amplitudasi, fazasi, chastotasi yoki shaklini ataylab o'zgartirish.",
+  "uzbek": "Dastlabki buzilish",
+  "english": "ing.-emphasis",
+  "russian": "rus.-предыскажение",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24a613ea7874f3bacf17b"
+  },
+  "w_id": 110,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Bosib chiqarishga tayyorlangan hujjat yoki tasvirni, uning sahifada joylashishini va yoki tashqi ko'rinishini aniqlashtirish maqsadida ko'rib chiqish.",
+  "uzbek": "Dastlabki ko'rib chiqish",
+  "english": "ing. - preview",
+  "russian": "rus.-предварительный просмотр",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24ac13ea7874f3bacf17c"
+  },
+  "w_id": 111,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Dasturiy ta'minotni yaratish usuli, bunda yaratilayotgan dasturiy ta'minotning dastlab- ki kodlari ochiq beriladi, ya'ni dasturiy ta'mi- notning dastlabki kodi ko'rish va o'zgarti- rishlar uchun ochiqdir. Ushbu imkoniyat bar- cha xohlovchilar uchun tayyor kodni o'z ehti- yojlari uchun ishlatishlari va ochiq dasturlar- ni yaratishga o'z hissalarini qo'shishlariga yordam beradi. Foydalanuvchining dasturiy ta'minotdan bepul foydalanishga haqqi bor, lekin ochiq litsenziya» ishlab chiqaruvchini ushbu «ochiq kodli dasturiy mahsulotning «bepulligini ta'minlashga majbur qilmaydi. Ammo ko'pgina samarali «ochiq dasturiy mahsulotlar loyihasi bepul.",
+  "uzbek": "Dastlabki ochiq kod",
+  "english": "ing.-open source",
+  "russian": "rus. - открытый исходный код",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24aed3ea7874f3bacf17d"
+  },
+  "w_id": 112,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Dasturga taalluqli papka bo'lib, unda dasturga tegishli bo'lgan sozlash fayllari va vaqtinchalik fayllar saqlanadi.",
+  "uzbek": "Dastlabki papka",
+  "english": "ing.-default folde",
+  "russian": "rus.-папка по умолчанию",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24b103ea7874f3bacf17e"
+  },
+  "w_id": 113,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Foydalanuvchi tanloviga ko'ra yoki bosh- lang'ich o'rnatiladigan parametrlar bilan oxirgi foydalanuvchi kompyuteriga dasturiy ta'minotni o'rnatish jarayoni.",
+  "uzbek": "Dastlabki o'rnatish",
+  "english": "ing.- initial installation",
+  "russian": "гus. - начальная установк",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24b513ea7874f3bacf17f"
+  },
+  "w_id": 114,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Axborotni siqish uchun emas, balki uni keyinchalik siqish uchun qulay shaklda taqdim etishga xizmat qiladigan usul. Masalan, siqilmagan multimedia ma'lumotlari uchun signal darajasining ohista o'zgarishi xosdir. Shu sababli delta-o'zgartirish qo'llaniladi, ya'ni absolyut qiymat o'rniga nisbiy qiymat olinadi. Matn, bajariladigan fayllar, ma'lumotlar bazasi va boshqalar uchun filtrlar mavjud.",
+  "uzbek": "Dastlabki o'zgartirishlar yoki filterlash",
+  "english": "ing. preliminary transformations or filtering",
+  "russian": "rus. - предварительные преобразования или фильтрация",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24b823ea7874f3bacf180"
+  },
+  "w_id": 115,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "1. Elektron hisoblash mashinasida amalga oshirish uchun mo'ljallangan, operatorlar ketma-ketligi.\n2. Bajarilishi kerak bo'lgan hisoblash jarayonining dasturlash tilidagi yoki mashina yo'riqnomalaridagi tavsifi. Funksional masala hal qilinishini bajaradigan operatorlar, komandalarning tugallangan izchil to'plami.",
+  "uzbek": "Dastur",
+  "english": "ing.-program",
+  "russian": "rus. - программа",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24be93ea7874f3bacf181"
+  },
+  "w_id": 116,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Radioeshittirish uchun maxsus mo'ljalangan va tayyorlangan tovushli yoki vizual epizodlar ketma-ketligi.\nIzoh Dasturlarni turiga ko'ra tovushli, televizion, musiqali, nutqli dasturlar, maqsadiga ko'ra-yangiliklar, o'quv, ko'ngilochar dasturlar, manbaiga ko'ra - ma'lum uzatuvchi stansiyalar, tashkilotlar, to'g'ridan-to'g'ri olib ko'rsatiladigan ko'rsatuvlar, yozib olinadigan ko'ma- tuvlar dasturi va boshqa dasturlarga tasniflash mumkin.",
+  "uzbek": "Dastur (eshittirishda)",
+  "english": "ing.-programme (in broadcasting)",
+  "russian": " rus. - программа (в вещании)",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24bec3ea7874f3bacf182"
+  },
+  "w_id": 117,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Radioeshittirish uchun maxsus mo'ljalangan va tayyorlangan tovushli yoki vizual epizodlar ketma-ketligi.\nIzoh Dasturlarni turiga ko'ra tovushli, televizion, musiqali, nutqli dasturlar, maqsadiga ko'ra-yangiliklar, o'quv, ko'ngilochar dasturlar, manbaiga ko'ra - ma'lum uzatuvchi stansiyalar, tashkilotlar, to'g'ridan-to'g'ri olib ko'rsatiladigan ko'rsatuvlar, yozib olinadigan ko'ma- tuvlar dasturi va boshqa dasturlarga tasniflash mumkin.",
+  "uzbek": "Dastur (eshittirishda)",
+  "english": "ing.-programme (in broadcasting)",
+  "russian": " rus. - программа (в вещании)",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24c7b3ea7874f3bacf183"
+  },
+  "w_id": 118,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Berilgan yo'nalishda yarimto'lqinli dipolga nisbatan, antennaga uzatilayotgan quvvatning uning kuchaytirish koeffitsiyentiga bo'lgan ko'paytmasi.",
+  "uzbek": "Effektiv nurlanadigan quvvat",
+  "english": "ing. effective radiated power",
+  "russian": "rus. - эффективная излучаемая мощность",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24e0e3ea7874f3bacf184"
+  },
+  "w_id": 119,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Maydon o'lchamliligiga ega radiolokatsiya obyektlarining xususiyatlarini aks ettiradigan va nurlantiruvchi obyektning shu energiya oqimi zichligiga radiolokatsion stansiyaga obyektdan qaytadigan elektromagnit energiya quvvatining nisbatiga teng xarakteristikasi.",
+  "uzbek": "Effektiv sochilish maydoni",
+  "english": "ing.-scattering cross-section  ",
+  "russian": "rus. - эффективная площадь рассеяния",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24e443ea7874f3bacf185"
+  },
+  "w_id": 120,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Radioto'lqinlar tarqaladigan elektromagnit muhitning umumlashtirilgan nomi.",
+  "uzbek": "Efir",
+  "english": "Ing.-ether",
+  "russian": "rus. - эфир",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24e7f3ea7874f3bacf186"
+  },
+  "w_id": 121,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Aloqa vositalarining ishchi chastotalari va ish rejimlarini elektromagnit va xalaqit mavjud vaziyatlarni tahlil qilish maqsadida nazorat qilish.",
+  "uzbek": "Efir orti radiokuzatuvi",
+  "english": "ing.-listening watch",
+  "russian": "rus. - радионаблюдение за эфиром",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24ebc3ea7874f3bacf187"
+  },
+  "w_id": 122,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "1. Abonent qurilmasi radiokanalga ulanib turgan umumiy vaqt.\n2. Abonent tomonidan bir oy ichida radioaloqa kanalidan jami foydalanish vaqti (minutlarda) bo'lib, har oylik to'lovlarni hisoblashda ishlatiladi.\n",
+  "uzbek": "Efirda bo'lish vaqti",
+  "english": "ing.-airtime",
+  "russian": "rus.-время пребывания в эфире",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24f273ea7874f3bacf188"
+  },
+  "w_id": 123,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Radiostansiyani halqali tekshirish rejimi,bunda qabul qilgich o'z uzatgichining signalini qabul qiladi.",
+  "uzbek": "Efirga chiqilmasdan amalga oshiriladigan nazorat",
+  "russian": "rus.-контроль без выхода в эфир",
+  "english": "ing.-off-the-air monitoring",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d24f7b3ea7874f3bacf189"
+  },
+  "w_id": 124,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Obyektga egalik qilishga nisbatan mutlaq huquqlarga egalikni nazarda tutuvchi harakat.",
+  "uzbek": "Egalik",
+  "english": "ing.-ownership",
+  "russian": "rus.-владение",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d250513ea7874f3bacf18a"
+  },
+  "w_id": 125,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Mualliflashtirilmagan tarzda boshqa das turlarni yoki MB ni o'zgartiradigan dastur.\n",
+  "uzbek": "Fag",
+  "russian": "rus.-фaг",
+  "english": "ing.-phage",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d250833ea7874f3bacf18b"
+  },
+  "w_id": 126,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Faksimil xabarlar, hujjatlarni kommutatsiya liniyalari (odatda, telefon liniyalari) orqali masofaga uzatish hamda masofadan qabul qilish qurilmasi.",
+  "uzbek": "Faks",
+  "english": "ing.-fax",
+  "russian": "rus. - факс",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d250c23ea7874f3bacf18c"
+  },
+  "w_id": 127,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Faksimil xabarlarni qabul qilish imkoniga ega bo'lgan kompyuterning dial-up-modemi. Faks-dastur bilan (masalan, Venta Fax and Voice) kompyuter faks funksiyalarini bajari-shi mumkin bo'ladi.",
+  "uzbek": "Faks-modem",
+  "english": "ing.-fax modem",
+  "russian": "rus. - факс-модем",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d250f43ea7874f3bacf18d"
+  },
+  "w_id": 128,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Bitta yoki bir nechta faks-modem orqali lokal tarmoq foydalanuvchilarining kiruvchi va chiquvchi faksimil xabarlari oqimini markazlashtirilgan tarzda boshqaradigan server.",
+  "uzbek": "Faks-server",
+  "english": "ing.-fax server",
+  "russian": "гus.-факс-сервер",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2512c3ea7874f3bacf18e"
+  },
+  "w_id": 129,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Telefon tarmog'iga ulangan telefakslar o'rtasida hujjatlar uzatilushini tashkil qilish.",
+  "uzbek": "Faksimil xabarlarni uzatish",
+  "english": "ing. - transfer of the facsimile messages",
+  "russian": "rus.-передача факсимильных сообщений",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d251b03ea7874f3bacf18f"
+  },
+  "w_id": 130,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Protsedura, makrokomanda yoki funksiyalar aniq chaqirilganda uzatiladigan argument.",
+  "uzbek": "Faktik (aniq) parametr",
+  "english": "ing.-actual argument",
+  "russian": "rus.-фактический параметр",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d251ef3ea7874f3bacf190"
+  },
+  "w_id": 131,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Hisoblash tizimining, ma'lum bir xotira qurilmasi amalga oshiradigan tashqi yoki tezkor xotirasi.",
+  "uzbek": "Faktik (aniq) xotira",
+  "english": "ing.-actual storage",
+  "russian": "rus.-фактическая памят",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d252443ea7874f3bacf191"
+  },
+  "w_id": 132,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Olinadigan va o'zaro to'la almashinadi panellardan iborat pol qoplamiz Panellar ularning ostidagi bo'shliqqa kim olishni ta'minlaydigan maxsus taglikle yoki to'sinlar (yoki unisi ham, bunisi ham) yordamida tutib turiladi.",
+  "uzbek": "Falsh-pol",
+  "russian": "rus.-фальш-пол",
+  "english": "ing.-access floor",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d252723ea7874f3bacf192"
+  },
+  "w_id": 133,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Foydalanuvchi subyekt yoki g'araz niyat shaxsning tizimdagi xatti-harakatlarini kuzatish.",
+  "uzbek": "Faoliyatni ro'yxatdan o'tkazish",
+  "english": " ing.-activity registration",
+  "russian": "rus.-регистрация деятельности",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2529e3ea7874f3bacf193"
+  },
+  "w_id": 134,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Windows operatsion tizimining holati, bunda shaxsiy kompyuterning asosiy tizimlari aktiv bo'lmagan rejimga o'tadi va undan chiqqandan so'ng ishni davom ettiradi.",
+  "uzbek": "Faoliyatsizlik",
+  "english": "ing.-hibernate",
+  "russian": "rus.-бездействие",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d252d53ea7874f3bacf194"
+  },
+  "w_id": 135,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Ma'lumotlardan tez foydalanadigan va faqat bir marta yozish mumkin bo'lgan DVD-disk.",
+  "uzbek": "Faqat yozish (DWD-WO)",
+  "english": "ing.-write only (DVD-WO)",
+  "russian": "rus.-только запись (DVD-WO) ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d252ed3ea7874f3bacf195"
+  },
+  "w_id": 136,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Faylning, uni o'zgartirishdan yoki chiqanb tashlashdan himoya qiladigan atributi.",
+  "uzbek": "Faqat o'qish",
+  "english": "ing. -read-only",
+  "russian": "rus.-только чтение",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d253693ea7874f3bacf197"
+  },
+  "w_id": 137,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Analitik hujum, bunda kriptoanalitik faqat shifrmatnga ega bo'ladi.",
+  "uzbek": "Faqat shifrmatn bo'yicha qilinadigan hujum",
+  "english": "ing.-cipher text-only attack",
+  "russian": "rus. - атака только по шифротексту",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2539a3ea7874f3bacf198"
+  },
+  "w_id": 138,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Rejalashtirish jarayonidagi, dalilsiz yoki ko'rsatmasdan turib chin, haqiqiy yoki muayyan deb hisoblanadigan omil.",
+  "uzbek": "Faraz",
+  "english": "ing. - assumption",
+  "russian": "rus. - допущение",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d253bc3ea7874f3bacf199"
+  },
+  "w_id": 139,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Rahbariyat, asosan kollegial organ tomoni dan, operativ masalalarni hal qilish maqsa dida tayyorlanadigan huquqiy hujjat; odatda, cheklangan amal qilish muddatiga ega bo'la- di hamda mansabdor shaxs va fuqarolarning tor doirasiga taalluqli bo'ladi.",
+  "uzbek": "Farmoyish",
+  "russian": "rus.-распоряжение ",
+  "english": "ing.-ordinance",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d253e03ea7874f3bacf19a"
+  },
+  "w_id": 140,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Apparatura, operatsion tizim yoki ilova xatosi. Ilovaning bajarilish yoki butun tizimning bundan keyin ishlash imkoniyatini yoʻqqa chiqaradi.",
+  "uzbek": "Fatal xato",
+  "english": "ing.- fatal error",
+  "russian": "rus. фатальная ошибка ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2540b3ea7874f3bacf19b"
+  },
+  "w_id": 141,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Kompyuter tizimida umumiy nom bilan saqlanadigan yozuvlar yoki boshqa ma'lu- motlar majmui. Barcha fayllar majmui ikkita katta turkumga bo'linadi dastur fayllari (bajariladigan fayllar) va ma'lumotlar fayl lari (bajarilmaydigan fayllar). Saqlanadigan ma'lumotlarning turiga ko'ra, fayllar matn, grafik, ikkili, komanda, ma'lumotlar bazasi fayllari, video va audiofayllarga bo'linadi.",
+  "uzbek": "Fayl",
+  "english": "ing. -file",
+  "russian": "rus. - файл",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d254373ea7874f3bacf19c"
+  },
+  "w_id": 142,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Fayl tizimi tomonidan qo'llab-quvvatlanadigan, fayllar bilan ishlashni tartibga solish imkonini beradigan belgi. Turli operatsion tizimlarda fayllar turli atributlar to'plamiga ega bo'ladi.",
+  "uzbek": "Fayl atributi",
+  "english": "ing.-file attribute",
+  "russian": "rus. - атрибут файла",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2545b3ea7874f3bacf19d"
+  },
+  "w_id": 143,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Fayl yoki katalogni yaratuvchi (jismoniy) shaxs.",
+  "uzbek": "Fayl egasi",
+  "english": "ing. -file owner",
+  "russian": "rus.-владелец файла",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2547d3ea7874f3bacf19e"
+  },
+  "w_id": 144,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Ma'lumotlarni faylda saqlash tuzilmasi. Standart formatlar, xususan, grafik fayllar formatlarining to'plami mavjud. Fayl forma tini odatda fayl nomi kengaytmasi koʻrsatadi.\n",
+  "uzbek": "Fayl formati ",
+  "english": "ing. file format",
+  "russian": "rus. формат файла ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d254aa3ea7874f3bacf19f"
+  },
+  "w_id": 145,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Elektron, magnit yoki optik tashuvchida saqlanganda, faylga beriladigan nom. Fayllar nomlarini yozish qoidalari foydalaniladigan operatsion tizimga bog'liq.",
+  "uzbek": "Fayl nomi",
+  "english": "ing. file name",
+  "russian": "rus.-имя файла ",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2550f3ea7874f3bacf1a0"
+  },
+  "w_id": 146,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Fayl nomining namunasi. turidagi simvol, fayl nomi shablonida bitta shablonning fayllar guruhini qidirib topish uchun xizmat qiladi.",
+  "uzbek": "Fayl nomi andozasi",
+  "english": "ing.filename picture",
+  "russian": "rus. - изображение типа файла",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d2553a3ea7874f3bacf1a1"
+  },
+  "w_id": 147,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": " Ajratgich nuqtadan keyin faylning turi yoki uning formatini identifikatsiya qiladigan faylning nomi joylashadigan, muayyan sim- vollar to'plami. Masalan, «.txt>> - matnli fayl, «bmp» fayl-rasm, <«.gif», «jpg» - ham fayl-rasm, lekin ular boshqa formatda.",
+  "uzbek": "Fayl nomini kengaytirish",
+  "english": "ing.-file name extension",
+  "russian": "rus.-расширение имени файла",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d255703ea7874f3bacf1a2"
+  },
+  "w_id": 148,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Kompyuter tarmog'i uzellari bo'ylab ko'payadigan kompyuter viruslari turlaridan biri. Zararli dasturni o'z ichiga oladi. Bu viruslar, foydalanuvchi uni ishga tushirib yuboradi degan umidda, uning e'tiborini tortadigan nomlar ostida (masalan, Game.exe, install.exe va b.lar) o'zining nusxalarini yaratadi.",
+  "uzbek": "Fayl <<qurtlari»",
+  "english": "ing. - file worms",
+  "russian": "rus. - файловые «черви»",
+  "category": 1
+},{
+  "_id": {
+    "$oid": "65d255953ea7874f3bacf1a3"
+  },
+  "w_id": 149,
+  "word": "",
+  "grammar": "",
+  "lexical": "",
+  "description": "Faylning boshlang'ich qismi, unda uning atributlari saqlanadi.",
+  "uzbek": "Fayl sarlavhasi",
+  "russian": "ing. - file header",
+  "english": "rus.-заголовок файла ",
+  "category": 1
+}]
