@@ -17,10 +17,6 @@
     <div id="app" class="max-w-[1100px] w-full px-4 mx-auto" v-cloak>
         <div class="z-10 flex items-center justify-between py-2 w-full">
             <div class="flex items-center gap-2">
-                <!-- <div class="flex items-center gap-2">
-                    <i class='bx bx-search-alt-2 text-xl text-gray-600'></i>
-                    <input @input="searchItems" required class="px-3 py-2 border rounded text-sm outline-none max-w-[300px] w-full" type="text" placeholder="Qidirish">
-                </div> -->
                 <div class="flex items-center gap-2 max-w-[300px]">
                     <select v-model="selected_category" @change="fetchItems()" required class="px-3 py-2 border rounded text-sm outline-none w-full">
                         <option v-for="c,i in categories" :value="i">${c.name}$</option>

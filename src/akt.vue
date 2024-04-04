@@ -101,21 +101,31 @@
                 <form class="form-inline w-100 form-grid-elements" @submit.prevent="search_items">
                     <div class="mr-md-2" style="position: relative;">
                         <input v-model="word" type="text"
+                            :disabled="category.length===0"
                             :class="`form-control mb-2 w-100 shadow-none ${validation.word ? 'is-invalid' : ''}`"
                             placeholder="So'z kiriting..." @input="processChange">
 
                         <div class="searched_words" v-show="s_items.length>0&&!!word.trim()">
-                            <!-- {{ s_items }} -->
                             <div v-for="s,i in s_items" :key="i" @click="select_word(s)">
                                 {{ i+1 }}.
-                                <span v-for="key,j in Object.keys(s)" :key="j" v-show="!['category','w_id', 'description'].includes(key)">{{ s[key] }}, </span>
+                                <span>{{ s[categories.find(c => c.c_id === s.category)?.mainfield] }}</span>
+                            </div>
+                            <!--  v-show="!['category','w_id', 'description'].includes(key)" -->
+                        </div>
+
+                        <div v-show="show_filter" class="filter_categories">
+                            <div style="display:flex;gap:4px;flex-wrap:wrap;">
+                                <div v-for="c,i in categories" :key="i" :value="c" style="display:flex;gap:4px;align-items:center;padding: 4px 6px;">
+                                    <input type="checkbox" v-model="category" :value="c" :id="`c_select_${i}`">
+                                    <label :for="`c_select_${i}`">{{ c.name }}</label>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="w-100 d-flex gap-2">
-                        <select class="form-control w-100 mb-2 mr-2 shadow-none" v-model="category">
-                            <option v-for="c,i in categories" :key="i" :value="i">{{ c.name }}</option>
-                        </select>
+                        <button type="button" @click="show_filter=!show_filter" class="btn btn-success mb-2 mr-2 buttonWidth">
+                            Kategoriyalar
+                        </button>
                         <button v-if="loading" type="submit" class="btn btn-success mb-2 buttonWidth" :disabled="loading">
                             <div class="spinner-border spinner-border-sm text-light" role="status">
                                 <span class="sr-only">Topilmoqda...</span>
@@ -134,7 +144,7 @@
                 <h3 class="text-warning p-0 m-0 font-weight-bold">
                     <div class="row">
                         <div class="col-md-6">
-                            <button class="btn btn-light" @click.prevent="speachVoice">
+                            <button type="button" class="btn btn-light" @click.prevent="speachVoice">
                                 <!-- <img src="../../essets/images/speaker1.png"> -->
                                 <img src="/assets/speaker1.png">
                             </button>
@@ -142,7 +152,7 @@
                         <div class="col-md-6" />
                     </div>
                 </h3>
-                <div class="row m-0 p-0 w-100" v-for="c,i in categories[category]?.fields||[]" :key="i">
+                <div class="row m-0 p-0 w-100" v-for="c,i in category.find(c => c.c_id == result?.category)?.fields||[]" :key="i">
                     <div class="col-md-4 border-bottom">
                         <p class="text-black-50 p-0 m-0 font-weight-bold mt-4">
                             {{ c.placeholder }}:
@@ -223,8 +233,10 @@ export default {
         validation: {
             word: ''
         },
-        category: 0,
+        selected_word: null,
+        category: [],
         loading: false,
+        show_filter: false,
         figures: [],
         items: [],
         s_items: [],
@@ -241,10 +253,9 @@ export default {
     },
     methods: {
         speachVoice() {
-            if (this.title !== '') {
+            if (this.word !== '') {
                 const msg = new SpeechSynthesisUtterance()
-                msg.text = this.title
-                // console.log('speech', this.title);
+                msg.text = this.word
                 window.speechSynthesis.speak(msg)
             }
         },
@@ -255,8 +266,9 @@ export default {
             this.$router.push('/login')
         },
         select_word(word) {
+            if(!word) return
             this.result = word
-            this.word = ''
+            this.word = word[this.categories.find(c => c.c_id === word.category)?.mainfield]
             this.s_items = []
         },
         async submit () {
@@ -265,7 +277,7 @@ export default {
             this.loading = true
             // this.figures = this.word.toLowerCase().split('')
             // const searched = await axios.get(`/api/words/search/${this.word}`)
-            const searched = await axios.get(`${this.url}/api/words/search/${this.word}?`)
+            const searched = await axios.get(`${this.url}/api/words/search/${this.word}?fields=${this.category.reduce((a,b) => a +','+ b.mainfield,'')}`)
             // console.log(searched.data);
             if(searched.data){
                 this.result = searched.data
@@ -283,17 +295,15 @@ export default {
         async get_categories() {
             const { data } = await axios.get(`${this.url}/api/categories?page=1&limit=1000`)
             this.categories = data.result
+            data.result[0]&&this.category.push(data.result[0])
         },
         async search_items() {
-            const qs = {}
-            this.categories?.[this.category]?.fields?.map(field => {
-                qs[field.name] = this.word
-            })
-            qs.description = this.word
-            // console.log(qs);
-            const { data } = await axios.get(`${this.url}/api/words/search/${this.word}`, { params: qs })
+            this.show_filter = false
+            const { data } = await axios.get(`${this.url}/api/words/search/${this.word}?fields=${this.category.map(a => a.mainfield).join(',')}`)
             this.s_items = data
-            console.log(data);
+            if(data.length === 0) {
+                alert("Bunday so'z topilmadi!")
+            }
         },
         processChange: debounce(function(e) {
             this.word = e.target.value
@@ -320,6 +330,7 @@ export default {
 <style>
 @import url('/assets/css.css');
 
+.filter_categories,
 .searched_words {
     position: absolute;
     top: 100%;

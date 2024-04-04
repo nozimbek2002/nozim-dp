@@ -46,6 +46,7 @@ def api_categories():
                 "c_id": item['c_id'],
                 "name": item['name'],
                 "fields": item['fields'],
+                "mainfield": item.get('mainfield', None)
             })
         
         return jsonify(result=categories_list, count=count)
@@ -69,7 +70,9 @@ def api_edit_categories(id):
     try:
         name = request.json['name']
         fields = request.json['fields']
-        newC = { "name":name, "fields": fields }
+        mainfield = request.json['mainfield']
+        newC = { "name":name, "fields": fields, "mainfield":mainfield }
+        print(newC)
         categories_col.update_one({ "c_id": int(id) }, { "$set": newC })
         return jsonify(True)
     except:
@@ -123,22 +126,32 @@ def api_create_words():
 
 @app.route('/api/words/search/<string:name>', methods=['GET'])
 def search_words(name):
-    # g = name
+    
     # query_params = request.args.to_dict()
-    # regex_patterns = {field: re.compile('^' + name, re.IGNORECASE) for field, name in query_params.items()}
-    # query = {field: pattern for field, pattern in regex_patterns.items()}
-    # print(query)
 
-    query_params = request.args.to_dict()
+    # # Construct $or query
+    # or_conditions = []
+    # for field, name in query_params.items():
+    #     or_conditions.append({field: re.compile('^' + name, re.IGNORECASE)})
 
-    # Construct $or query
-    or_conditions = []
-    for field, name in query_params.items():
-        or_conditions.append({field: re.compile('^' + name, re.IGNORECASE)})
+    # # Construct MongoDB query
+    # query = {'$or': or_conditions}
 
-    # Construct MongoDB query
-    query = {'$or': or_conditions}
-    # print(query)
+    fields = request.args.get('fields')
+    if fields:
+        fields = fields.split(',')
+    else:
+        fields = None
+
+    query = {}
+    if fields:
+        query['$or'] = []
+        for field in fields:
+                query['$or'].append({field: { '$regex': re.compile('^' + name, re.IGNORECASE) }})
+    else:
+        query = { '$text': { '$search': name } }
+
+    print(query)
     categories_r = words_col.find(query)
 
     categories_list = []
