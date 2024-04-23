@@ -77,7 +77,7 @@ const results = ref([])
 const category = ref([])
 const categories = ref([])
 
-const url = 'http://localhost:5000'
+const url = 'https://fair-blue-abalone-garb.cyclic.app'
 
 const searchItems = async () => {
     try {
