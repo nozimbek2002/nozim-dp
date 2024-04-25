@@ -133,7 +133,7 @@ const get_words = async () => {
     try {
         item.value = null
         loading.value = true
-        const { data } = await axios.get(`${url}/api/words?search=&page=1&perpage=12&category=${category.value[0].c_id}`)
+        const { data } = await axios.get(`${url}/api/words?search=&page=1&perpage=96&category=${category.value[0].c_id}`)
         if(data){
             results.value = data.result
         } else {
