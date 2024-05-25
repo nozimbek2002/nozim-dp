@@ -41,7 +41,6 @@
 
             </div>
 
-
             <div v-if="loading" class="flex-1 h-screen flex items-center justify-center">
                 <div class="animate-spin">
                     <McLoading2Line class="w-10 h-10 text-purple-600" />
@@ -60,7 +59,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
