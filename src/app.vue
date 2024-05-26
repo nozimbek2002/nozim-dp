@@ -9,7 +9,11 @@
                     <button type="button" @click="filter=!filter" class="transition px-3 py-1 text-white bg-purple-600 hover:bg-purple-500 active:bg-purple-400 disabled:bg-purple-900 rounded-lg">
                         <SuFiltering />
                     </button>
+                    <button type="button" @click="openAdmin" class="transition px-3 py-1 text-white bg-purple-600 hover:bg-purple-500 active:bg-purple-400 disabled:bg-purple-900 rounded-lg">
+                        <CdBook />
+                    </button>
                 </div>
+
                 <div class="py-3 flex flex-wrap gap-2" v-show="filter">
                     <div v-for="c,i in categories" :key="i" :value="c" style="display:flex;gap:4px;align-items:center;">
                         <input type="checkbox" hidden v-model="category" :value="c" :id="`c_select_${i}`">
@@ -97,7 +101,7 @@
 import axios from 'axios'
 import lodash from 'lodash'
 import { ref, watch } from 'vue'
-import { McLoading2Line, FaVolumeHigh, ClCloseLg, SuFiltering } from '@kalimahapps/vue-icons'
+import { McLoading2Line, FaVolumeHigh, ClCloseLg, SuFiltering, CdBook } from '@kalimahapps/vue-icons'
 
 const text = ref('')
 const item = ref(null)
@@ -107,7 +111,12 @@ const results = ref([])
 const category = ref([])
 const categories = ref([])
 
-const url = 'https://fair-blue-abalone-garb.cyclic.app'
+// const url = 'https://fair-blue-abalone-garb.cyclic.app'
+const url = 'https://nozim-dp.onrender.com'
+
+const openAdmin = () => {
+    window.location.href = url + '/login'
+}
 
 const searchItems = lodash.debounce(async () => {
     try {

@@ -21,6 +21,10 @@ def index():
 def category():
     return render_template('categories.html')
 
+@app.route('/login')
+def login_page():
+    return render_template('login.html')
+
 # API CATEGORIES
 def get_last_c_id():
     last_c_id  = categories_col.find().sort([('c_id', -1)]).limit(1)
